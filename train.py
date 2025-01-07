@@ -40,7 +40,7 @@ args, unknown = parser.parse_known_args()  # Handles Jupyter environments gracef
 model = PPO(
     "MlpPolicy",
     env,
-    verbose=1,
+    verbose=2,
     learning_rate=args.learning_rate,
     batch_size=args.batch_size,
     n_steps=args.n_steps,
