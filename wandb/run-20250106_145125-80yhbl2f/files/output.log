@@ -1,0 +1,29 @@
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Starting learn iteration 1
+Observation: {'robotId_2': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895, 0.1195]}}
+Traceback (most recent call last):
+  File "c:/Users/stijn/OneDrive/Documenten/GitHub/Robotics_Learning/train.py", line 56, in <module>
+    model.learn(
+  File "C:\Users\stijn\anaconda3\envs\Block_2B\lib\site-packages\stable_baselines3\ppo\ppo.py", line 311, in learn
+    return super().learn(
+  File "C:\Users\stijn\anaconda3\envs\Block_2B\lib\site-packages\stable_baselines3\common\on_policy_algorithm.py", line 310, in learn
+    total_timesteps, callback = self._setup_learn(
+  File "C:\Users\stijn\anaconda3\envs\Block_2B\lib\site-packages\stable_baselines3\common\base_class.py", line 423, in _setup_learn
+    self._last_obs = self.env.reset()  # type: ignore[assignment]
+  File "C:\Users\stijn\anaconda3\envs\Block_2B\lib\site-packages\stable_baselines3\common\vec_env\dummy_vec_env.py", line 77, in reset
+    obs, self.reset_infos[env_idx] = self.envs[env_idx].reset(seed=self._seeds[env_idx], **maybe_options)
+ValueError: too many values to unpack (expected 2)
+Traceback (most recent call last):
+  File "c:/Users/stijn/OneDrive/Documenten/GitHub/Robotics_Learning/train.py", line 56, in <module>
+    model.learn(
+  File "C:\Users\stijn\anaconda3\envs\Block_2B\lib\site-packages\stable_baselines3\ppo\ppo.py", line 311, in learn
+    return super().learn(
+  File "C:\Users\stijn\anaconda3\envs\Block_2B\lib\site-packages\stable_baselines3\common\on_policy_algorithm.py", line 310, in learn
+    total_timesteps, callback = self._setup_learn(
+  File "C:\Users\stijn\anaconda3\envs\Block_2B\lib\site-packages\stable_baselines3\common\base_class.py", line 423, in _setup_learn
+    self._last_obs = self.env.reset()  # type: ignore[assignment]
+  File "C:\Users\stijn\anaconda3\envs\Block_2B\lib\site-packages\stable_baselines3\common\vec_env\dummy_vec_env.py", line 77, in reset
+    obs, self.reset_infos[env_idx] = self.envs[env_idx].reset(seed=self._seeds[env_idx], **maybe_options)
+ValueError: too many values to unpack (expected 2)
