@@ -7,6 +7,7 @@ from clearml import Task
 import wandb
 import typing_extensions as TypeIs
 import tensorflow
+from tensorflow.python.checkpoint import checkpoint
 import os
 
 
