@@ -9,6 +9,7 @@ import typing_extensions as TypeIs
 import tensorflow
 from tensorflow.python.checkpoint import checkpoint
 import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 
 os.environ['WANDB_API_KEY'] = '6fca5bbd6d2177bec8096793bd4845c408625667'
