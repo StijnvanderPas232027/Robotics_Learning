@@ -1,0 +1,16 @@
+{"time":"2025-01-08T09:39:10.8362238+01:00","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2025-01-08T09:39:10.8362238+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250108_093910-rg4yzgi7\\logs\\debug-core.log"}
+{"time":"2025-01-08T09:39:11.650929+01:00","level":"INFO","msg":"created new stream","id":"rg4yzgi7"}
+{"time":"2025-01-08T09:39:11.650929+01:00","level":"INFO","msg":"stream: started","id":"rg4yzgi7"}
+{"time":"2025-01-08T09:39:11.650929+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"rg4yzgi7"}
+{"time":"2025-01-08T09:39:11.650929+01:00","level":"INFO","msg":"sender: started","stream_id":"rg4yzgi7"}
+{"time":"2025-01-08T09:39:11.650929+01:00","level":"INFO","msg":"handler: started","stream_id":"rg4yzgi7"}
+{"time":"2025-01-08T09:39:11.9738528+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-08T09:39:12.4720762+01:00","level":"INFO","msg":"stream: closing","id":"rg4yzgi7"}
+{"time":"2025-01-08T09:39:12.4720762+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-08T09:39:12.4725808+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-08T09:39:13.6185446+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-08T09:39:13.8159246+01:00","level":"INFO","msg":"handler: closed","stream_id":"rg4yzgi7"}
+{"time":"2025-01-08T09:39:13.8159246+01:00","level":"INFO","msg":"sender: closed","stream_id":"rg4yzgi7"}
+{"time":"2025-01-08T09:39:13.8159246+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rg4yzgi7"}
+{"time":"2025-01-08T09:39:13.8159246+01:00","level":"INFO","msg":"stream: closed","id":"rg4yzgi7"}
