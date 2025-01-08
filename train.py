@@ -7,7 +7,8 @@ from clearml import Task
 import wandb
 import typing_extensions as TypeIs
 import tensorflow
-from tensorflow.python.checkpoint import checkpoint
+from tensorflow.python.checkpoint.checkpoint import Checkpoint
+
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
@@ -25,7 +26,7 @@ task = Task.init(
 # Set base docker image and queue
 task.set_base_docker("deanis/2023y2b-rl:latest")
 task.execute_remotely(queue_name="default")
-# After running the setup script we can upload this
+
 from ot2_env_wrapper import OT2Env
 env = OT2Env()  
 
