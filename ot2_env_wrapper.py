@@ -85,7 +85,7 @@ class OT2Env(gym.Env):
 
         # Check termination condition (task completion)
         distance = np.linalg.norm(pipette_position - self.goal_position)
-        terminated = distance < 0.05  # Adjust threshold based on your task requirements
+        terminated = distance < 0.001  # Adjust threshold based on your task requirements
 
         # Check truncation condition (exceeded max steps)
         truncated = self.steps >= self.max_steps
