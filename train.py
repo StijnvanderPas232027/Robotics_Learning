@@ -12,7 +12,6 @@ import os
 
 
 os.environ['WANDB_API_KEY'] = '6fca5bbd6d2177bec8096793bd4845c408625667'
-from ot2_env_wrapper import OT2Env
 # Load the API key for wandb
 run = wandb.init(project="RL_task11", sync_tensorboard=True)
 
