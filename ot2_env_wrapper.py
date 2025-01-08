@@ -61,7 +61,7 @@ class OT2Env(gym.Env):
         # Reset step counter
         self.steps = 0
 
-        return full_observation
+        return full_observation, {}
 
     def step(self, action):
         # Append 0 for the drop action (assuming it's not used yet)
