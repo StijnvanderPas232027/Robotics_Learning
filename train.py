@@ -19,7 +19,8 @@ run = wandb.init(project="RL_task11", sync_tensorboard=True)
 
 task = Task.init(
     project_name="Mentor Group D/Group 3/StijnvanderPas",
-    task_name="First model",    
+    task_name="First model",
+    
 )
 
 # Set base docker image and queue
@@ -27,7 +28,7 @@ task.set_base_docker("deanis/2023y2b-rl:latest")
 task.execute_remotely(queue_name="default")
 
 from ot2_env_wrapper import OT2Env
-env = OT2Env()
+env = OT2Env()  
 
 # Argument parser setup
 parser = argparse.ArgumentParser()
@@ -41,7 +42,7 @@ args, unknown = parser.parse_known_args()  # Handles Jupyter environments gracef
 model = PPO(
     "MlpPolicy",
     env,
-    verbose=1,
+    verbose=2,
     learning_rate=args.learning_rate,
     batch_size=args.batch_size,
     n_steps=args.n_steps,
@@ -80,3 +81,4 @@ for i in range(1):
     # Save the model after each iteration
     model.save(f"{model_dir}/{time_steps * (i + 1)}")
     print(f"Model saved at iteration {i + 1}: {model_dir}/{time_steps * (i + 1)}")
+    
