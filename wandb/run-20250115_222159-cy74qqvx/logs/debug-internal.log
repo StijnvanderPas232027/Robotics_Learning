@@ -1,0 +1,17 @@
+{"time":"2025-01-15T22:21:59.4064615+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_222159-cy74qqvx\\logs\\debug-core.log"}
+{"time":"2025-01-15T22:21:59.5131152+01:00","level":"INFO","msg":"created new stream","id":"cy74qqvx"}
+{"time":"2025-01-15T22:21:59.5138071+01:00","level":"INFO","msg":"stream: started","id":"cy74qqvx"}
+{"time":"2025-01-15T22:21:59.5138071+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"cy74qqvx"}
+{"time":"2025-01-15T22:21:59.5138071+01:00","level":"INFO","msg":"sender: started","stream_id":"cy74qqvx"}
+{"time":"2025-01-15T22:21:59.5138071+01:00","level":"INFO","msg":"handler: started","stream_id":"cy74qqvx"}
+{"time":"2025-01-15T22:21:59.7902139+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T22:22:11.1018582+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T22:23:31.1135635+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T22:23:31.1140758+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T22:23:32.1232895+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading runs\\cy74qqvx\\runs\\cy74qqvx_0\\events.out.tfevents.1736976121.Stijn.25832.1","runtime_seconds":0.2420351,"progress":"34.8KB/34.8KB"},{"desc":"uploading model.zip","runtime_seconds":0.2420351,"progress":"143.7KB/143.7KB"}],"total_operations":2}}
+{"time":"2025-01-15T22:23:32.3483664+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T22:23:33.563454+01:00","level":"INFO","msg":"stream: closing","id":"cy74qqvx"}
+{"time":"2025-01-15T22:23:33.563454+01:00","level":"INFO","msg":"handler: closed","stream_id":"cy74qqvx"}
+{"time":"2025-01-15T22:23:33.563454+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"cy74qqvx"}
+{"time":"2025-01-15T22:23:33.563454+01:00","level":"INFO","msg":"sender: closed","stream_id":"cy74qqvx"}
+{"time":"2025-01-15T22:23:33.563454+01:00","level":"INFO","msg":"stream: closed","id":"cy74qqvx"}

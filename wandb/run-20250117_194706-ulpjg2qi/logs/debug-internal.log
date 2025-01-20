@@ -1,0 +1,17 @@
+{"time":"2025-01-17T19:47:06.2609509+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_194706-ulpjg2qi\\logs\\debug-core.log"}
+{"time":"2025-01-17T19:47:06.7723805+01:00","level":"INFO","msg":"created new stream","id":"ulpjg2qi"}
+{"time":"2025-01-17T19:47:06.7723805+01:00","level":"INFO","msg":"stream: started","id":"ulpjg2qi"}
+{"time":"2025-01-17T19:47:06.7723805+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ulpjg2qi"}
+{"time":"2025-01-17T19:47:06.7723805+01:00","level":"INFO","msg":"sender: started","stream_id":"ulpjg2qi"}
+{"time":"2025-01-17T19:47:06.7723805+01:00","level":"INFO","msg":"handler: started","stream_id":"ulpjg2qi"}
+{"time":"2025-01-17T19:47:07.0720332+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T19:47:19.5725247+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T20:39:02.8733383+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T20:39:02.8749687+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T20:39:03.8777621+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4776924,"progress":"1.4MB/1.7MB"},{"desc":"uploading runs\\ulpjg2qi\\runs\\ulpjg2qi_0\\events.out.tfevents.1737139629.Stijn.19636.7","runtime_seconds":0.0353344,"progress":"32.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.0353344,"progress":"16.0KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-17T20:39:04.810544+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T20:39:06.1198128+01:00","level":"INFO","msg":"stream: closing","id":"ulpjg2qi"}
+{"time":"2025-01-17T20:39:06.1198128+01:00","level":"INFO","msg":"handler: closed","stream_id":"ulpjg2qi"}
+{"time":"2025-01-17T20:39:06.1198128+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ulpjg2qi"}
+{"time":"2025-01-17T20:39:06.1198128+01:00","level":"INFO","msg":"sender: closed","stream_id":"ulpjg2qi"}
+{"time":"2025-01-17T20:39:06.1198128+01:00","level":"INFO","msg":"stream: closed","id":"ulpjg2qi"}

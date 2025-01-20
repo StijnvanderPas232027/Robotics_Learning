@@ -1,0 +1,20 @@
+{"time":"2025-01-15T16:33:35.0020811+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_163334-m8an5qjx\\logs\\debug-core.log"}
+{"time":"2025-01-15T16:33:35.1124978+01:00","level":"INFO","msg":"created new stream","id":"m8an5qjx"}
+{"time":"2025-01-15T16:33:35.1124978+01:00","level":"INFO","msg":"stream: started","id":"m8an5qjx"}
+{"time":"2025-01-15T16:33:35.1124978+01:00","level":"INFO","msg":"sender: started","stream_id":"m8an5qjx"}
+{"time":"2025-01-15T16:33:35.1124978+01:00","level":"INFO","msg":"handler: started","stream_id":"m8an5qjx"}
+{"time":"2025-01-15T16:33:35.1124978+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"m8an5qjx"}
+{"time":"2025-01-15T16:33:35.3733757+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T16:33:46.506165+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T19:51:37.6052714+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/m8an5qjx/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-15T19:51:39.8385861+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/m8an5qjx/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-15T19:58:19.5079002+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/m8an5qjx/file_stream\": context deadline exceeded"}
+{"time":"2025-01-15T19:58:21.4700946+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-15T20:00:02.7751868+01:00","level":"INFO","msg":"stream: closing","id":"m8an5qjx"}
+{"time":"2025-01-15T20:00:02.7751868+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T20:00:02.7767566+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T20:00:04.2391921+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T20:00:04.4456176+01:00","level":"INFO","msg":"handler: closed","stream_id":"m8an5qjx"}
+{"time":"2025-01-15T20:00:04.4456176+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m8an5qjx"}
+{"time":"2025-01-15T20:00:04.4456176+01:00","level":"INFO","msg":"sender: closed","stream_id":"m8an5qjx"}
+{"time":"2025-01-15T20:00:04.4456176+01:00","level":"INFO","msg":"stream: closed","id":"m8an5qjx"}

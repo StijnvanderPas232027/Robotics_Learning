@@ -1,0 +1,17 @@
+{"time":"2025-01-16T22:19:04.5148992+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_221904-naxcfoea\\logs\\debug-core.log"}
+{"time":"2025-01-16T22:19:04.726184+01:00","level":"INFO","msg":"created new stream","id":"naxcfoea"}
+{"time":"2025-01-16T22:19:04.726184+01:00","level":"INFO","msg":"stream: started","id":"naxcfoea"}
+{"time":"2025-01-16T22:19:04.726184+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"naxcfoea"}
+{"time":"2025-01-16T22:19:04.726184+01:00","level":"INFO","msg":"sender: started","stream_id":"naxcfoea"}
+{"time":"2025-01-16T22:19:04.726184+01:00","level":"INFO","msg":"handler: started","stream_id":"naxcfoea"}
+{"time":"2025-01-16T22:19:05.0239075+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T22:19:15.4956302+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T23:03:50.3408841+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T23:03:50.3413909+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T23:03:51.3535604+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6784532,"progress":"1.7MB/1.7MB"},{"desc":"uploading runs\\naxcfoea\\runs\\naxcfoea_0\\events.out.tfevents.1737062345.Stijn.11688.4","runtime_seconds":0.3401564,"progress":"1.0MB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.3401564,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-16T23:03:51.9130727+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T23:03:53.2728081+01:00","level":"INFO","msg":"stream: closing","id":"naxcfoea"}
+{"time":"2025-01-16T23:03:53.2728081+01:00","level":"INFO","msg":"handler: closed","stream_id":"naxcfoea"}
+{"time":"2025-01-16T23:03:53.2728081+01:00","level":"INFO","msg":"sender: closed","stream_id":"naxcfoea"}
+{"time":"2025-01-16T23:03:53.2728081+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"naxcfoea"}
+{"time":"2025-01-16T23:03:53.2728081+01:00","level":"INFO","msg":"stream: closed","id":"naxcfoea"}

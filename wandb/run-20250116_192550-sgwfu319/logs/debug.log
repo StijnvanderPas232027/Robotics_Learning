@@ -1,0 +1,39 @@
+2025-01-16 19:25:50,732 INFO    MainThread:11688 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-01-16 19:25:50,732 INFO    MainThread:11688 [wandb_setup.py:_flush():68] Configure stats pid to 11688
+2025-01-16 19:25:50,732 INFO    MainThread:11688 [wandb_setup.py:_flush():68] Loading settings from C:\Users\stijn\.config\wandb\settings
+2025-01-16 19:25:50,732 INFO    MainThread:11688 [wandb_setup.py:_flush():68] Loading settings from C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\wandb\settings
+2025-01-16 19:25:50,732 INFO    MainThread:11688 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-16 19:25:50,732 INFO    MainThread:11688 [wandb_init.py:_log_setup():523] Logging user logs to C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\wandb\run-20250116_192550-sgwfu319\logs\debug.log
+2025-01-16 19:25:50,732 INFO    MainThread:11688 [wandb_init.py:_log_setup():524] Logging internal logs to C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\wandb\run-20250116_192550-sgwfu319\logs\debug-internal.log
+2025-01-16 19:25:50,732 INFO    MainThread:11688 [wandb_init.py:init():641] calling init triggers
+2025-01-16 19:25:50,732 INFO    MainThread:11688 [wandb_init.py:init():647] wandb.init called with sweep_config: {}
+config: {}
+2025-01-16 19:25:50,732 INFO    MainThread:11688 [wandb_init.py:init():674] starting backend
+2025-01-16 19:25:50,955 INFO    MainThread:11688 [wandb_init.py:init():678] sending inform_init request
+2025-01-16 19:25:50,964 INFO    MainThread:11688 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-01-16 19:25:50,965 INFO    MainThread:11688 [wandb_init.py:init():693] backend started and connected
+2025-01-16 19:25:50,966 INFO    MainThread:11688 [wandb_init.py:init():786] updated telemetry
+2025-01-16 19:25:50,995 INFO    MainThread:11688 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-01-16 19:25:51,417 INFO    MainThread:11688 [wandb_init.py:init():868] starting run threads in backend
+2025-01-16 19:25:51,650 INFO    MainThread:11688 [wandb_run.py:_console_start():2415] atexit reg
+2025-01-16 19:25:51,650 INFO    MainThread:11688 [wandb_run.py:_redirect():2265] redirect: wrap_raw
+2025-01-16 19:25:51,650 INFO    MainThread:11688 [wandb_run.py:_redirect():2330] Wrapping output streams.
+2025-01-16 19:25:51,650 INFO    MainThread:11688 [wandb_run.py:_redirect():2355] Redirects installed.
+2025-01-16 19:25:51,652 INFO    MainThread:11688 [wandb_init.py:init():910] run started, returning control to user process
+2025-01-16 19:25:51,652 INFO    MainThread:11688 [wandb_run.py:_config_callback():1283] config_cb None None {'learning_rate': 0.0006719724530993202, 'batch_size': 256, 'seed': 4438, 'iteration': 1}
+2025-01-16 19:25:52,419 INFO    MainThread:11688 [wandb_run.py:_tensorboard_callback():1476] tensorboard callback: runs/sgwfu319\runs/sgwfu319_0, True
+2025-01-16 19:25:52,426 INFO    MainThread:11688 [wandb_run.py:_config_callback():1283] config_cb None None {'algo': 'PPO', 'policy_class': "<class 'stable_baselines3.common.policies.ActorCriticPolicy'>", 'device': 'cpu', 'verbose': 1, 'policy_kwargs': '{}', 'num_timesteps': 0, '_total_timesteps': 3000000, '_num_timesteps_at_start': 0, 'action_noise': 'None', 'start_time': 1737051952413205500, 'tensorboard_log': 'runs/sgwfu319', '_last_obs': '[[ 0.073       0.0895      0.1195      0.03112408 -0.05895573  0.27611145]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x00000253A375C190>', '_vec_normalize_env': 'None', 'observation_space': 'Box([-0.187  -0.1705  0.1195 -0.2531 -0.2195 -0.2895], [0.2531 0.2195 0.2895 0.2531 0.2195 0.2895], (6,), float32)', 'action_space': 'Box(-1.0, 1.0, (3,), float32)', 'n_envs': 1, 'n_steps': 2048, 'gamma': 0.99, 'gae_lambda': 0.95, 'ent_coef': 0.0, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'rollout_buffer_class': "<class 'stable_baselines3.common.buffers.RolloutBuffer'>", 'rollout_buffer_kwargs': '{}', 'n_epochs': 10, 'clip_range': '<function get_schedule_fn.<locals>.<lambda> at 0x00000253ADB83670>', 'clip_range_vf': 'None', 'normalize_advantage': 'True', 'target_kl': 'None', 'lr_schedule': '<function get_schedule_fn.<locals>.<lambda> at 0x00000253A37AC940>', 'rollout_buffer': '<stable_baselines3.common.buffers.RolloutBuffer object at 0x00000253A3770820>', 'policy': 'ActorCriticPolicy(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (pi_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (vf_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (mlp_extractor): MlpExtractor(\n    (policy_net): Sequential(\n      (0): Linear(in_features=6, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n    (value_net): Sequential(\n      (0): Linear(in_features=6, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n  )\n  (action_net): Linear(in_features=64, out_features=3, bias=True)\n  (value_net): Linear(in_features=64, out_features=1, bias=True)\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x00000253ACB92EE0>'}
+2025-01-16 19:32:02,869 INFO    MainThread:11688 [sb3.py:save_model():147] Saving model checkpoint to models\iteration_1\model.zip
+2025-01-16 19:39:21,799 INFO    MainThread:11688 [sb3.py:save_model():147] Saving model checkpoint to models\iteration_1\model.zip
+2025-01-16 19:45:47,227 INFO    MainThread:11688 [sb3.py:save_model():147] Saving model checkpoint to models\iteration_1\model.zip
+2025-01-16 19:52:13,190 INFO    MainThread:11688 [sb3.py:save_model():147] Saving model checkpoint to models\iteration_1\model.zip
+2025-01-16 19:58:40,131 INFO    MainThread:11688 [sb3.py:save_model():147] Saving model checkpoint to models\iteration_1\model.zip
+2025-01-16 20:05:09,237 INFO    MainThread:11688 [sb3.py:save_model():147] Saving model checkpoint to models\iteration_1\model.zip
+2025-01-16 20:05:09,831 INFO    MainThread:11688 [sb3.py:save_model():147] Saving model checkpoint to models\iteration_1\model.zip
+2025-01-16 20:05:11,165 INFO    MainThread:11688 [wandb_run.py:_finish():2140] finishing run 232027-breda-university-of-applied-sciences/RL_task11/sgwfu319
+2025-01-16 20:05:11,166 INFO    MainThread:11688 [wandb_run.py:_atexit_cleanup():2380] got exitcode: 0
+2025-01-16 20:05:11,166 INFO    MainThread:11688 [wandb_run.py:_restore():2362] restore
+2025-01-16 20:05:11,166 INFO    MainThread:11688 [wandb_run.py:_restore():2368] restore done
+2025-01-16 20:05:14,002 INFO    MainThread:11688 [wandb_run.py:_footer_history_summary_info():3984] rendering history
+2025-01-16 20:05:14,003 INFO    MainThread:11688 [wandb_run.py:_footer_history_summary_info():4016] rendering summary
+2025-01-16 20:05:14,008 INFO    MainThread:11688 [wandb_run.py:_footer_sync_info():3945] logging synced files

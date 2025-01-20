@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train2.py", line 24, in <module>
+    env.seed(SEED)  # Set seed for the environment
+AttributeError: 'OT2Env' object has no attribute 'seed'
+Traceback (most recent call last):
+  File "train2.py", line 24, in <module>
+    env.seed(SEED)  # Set seed for the environment
+AttributeError: 'OT2Env' object has no attribute 'seed'

@@ -1,0 +1,17 @@
+{"time":"2025-01-17T14:50:48.2544234+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_145048-s2npyaw3\\logs\\debug-core.log"}
+{"time":"2025-01-17T14:50:48.6664274+01:00","level":"INFO","msg":"created new stream","id":"s2npyaw3"}
+{"time":"2025-01-17T14:50:48.6664274+01:00","level":"INFO","msg":"stream: started","id":"s2npyaw3"}
+{"time":"2025-01-17T14:50:48.6664274+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"s2npyaw3"}
+{"time":"2025-01-17T14:50:48.6664274+01:00","level":"INFO","msg":"sender: started","stream_id":"s2npyaw3"}
+{"time":"2025-01-17T14:50:48.6664274+01:00","level":"INFO","msg":"handler: started","stream_id":"s2npyaw3"}
+{"time":"2025-01-17T14:50:49.1546236+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T14:50:59.6254538+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T15:50:05.6405517+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T15:50:05.641629+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T15:50:06.6424601+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.640162,"progress":"1.7MB/1.7MB"},{"desc":"uploading model.zip","runtime_seconds":0.2635908,"progress":"143.7KB/143.7KB"},{"desc":"uploading runs\\s2npyaw3\\runs\\s2npyaw3_0\\events.out.tfevents.1737121849.Stijn.21984.2","runtime_seconds":0.2635908,"progress":"1.0MB/1.0MB"}],"total_operations":3}}
+{"time":"2025-01-17T15:50:07.3362677+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T15:50:08.5470102+01:00","level":"INFO","msg":"stream: closing","id":"s2npyaw3"}
+{"time":"2025-01-17T15:50:08.5470102+01:00","level":"INFO","msg":"handler: closed","stream_id":"s2npyaw3"}
+{"time":"2025-01-17T15:50:08.5470102+01:00","level":"INFO","msg":"sender: closed","stream_id":"s2npyaw3"}
+{"time":"2025-01-17T15:50:08.5470102+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"s2npyaw3"}
+{"time":"2025-01-17T15:50:08.5470102+01:00","level":"INFO","msg":"stream: closed","id":"s2npyaw3"}

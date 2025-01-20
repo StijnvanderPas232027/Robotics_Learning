@@ -1,0 +1,17 @@
+{"time":"2025-01-15T13:46:18.4513957+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_134618-yx78e8k4\\logs\\debug-core.log"}
+{"time":"2025-01-15T13:46:18.5600845+01:00","level":"INFO","msg":"created new stream","id":"yx78e8k4"}
+{"time":"2025-01-15T13:46:18.5600845+01:00","level":"INFO","msg":"stream: started","id":"yx78e8k4"}
+{"time":"2025-01-15T13:46:18.5600845+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"yx78e8k4"}
+{"time":"2025-01-15T13:46:18.5600845+01:00","level":"INFO","msg":"handler: started","stream_id":"yx78e8k4"}
+{"time":"2025-01-15T13:46:18.5600845+01:00","level":"INFO","msg":"sender: started","stream_id":"yx78e8k4"}
+{"time":"2025-01-15T13:46:18.8459201+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T13:46:29.9468059+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T14:15:31.5342823+01:00","level":"INFO","msg":"stream: closing","id":"yx78e8k4"}
+{"time":"2025-01-15T14:15:31.5342823+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T14:15:31.5364968+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T14:15:31.7002474+01:00","level":"ERROR","msg":"file transfer: upload: failed to upload: 400 Bad Request","task":"DefaultUploadTask{FileKind: 0, Path: C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_134618-yx78e8k4\\files\\model.zip, Name: model.zip, Url: https://storage.googleapis.com/wandb-production.appspot.com/232027-breda-university-of-applied-sciences/RL_task11/yx78e8k4/model.zip?Expires=1737033333&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=QpY23Wx%2FecucpqXoe7PUDY8POqLJuNc3l3g8dmyq7G4Z2Rk7Ha0dnCJdCefjDCcDm3xHJcU38lbOzASSRR%2FdWUx47BNATgzEP5mpzxZFkt%2Bp4IwidXHoifEOcNR5BlDSMqjUrhjUSqhaIQM3yqoXwivHCVL60m0tyoJPqOCPR0XVf8iz9PPQg2j8T4txel%2BSqrezDDtGSpnYP2%2BigK99afrZvXryzkRVJ84%2Bj2W%2F%2FfJZ79L2qDSrdkAkmHctmgJLMlOrtV3jYoelCwm36VBUz%2FloXkebZ%2FMPE168UwgjVipj6IpFEgB7Ch2arRgqGwjKzhiLWDYFoh5As5i5Mi8Aqw%3D%3D, Size: 147167}"}
+{"time":"2025-01-15T14:15:33.2580174+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T14:15:33.4708068+01:00","level":"INFO","msg":"handler: closed","stream_id":"yx78e8k4"}
+{"time":"2025-01-15T14:15:33.4708068+01:00","level":"INFO","msg":"sender: closed","stream_id":"yx78e8k4"}
+{"time":"2025-01-15T14:15:33.4708068+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yx78e8k4"}
+{"time":"2025-01-15T14:15:33.4708068+01:00","level":"INFO","msg":"stream: closed","id":"yx78e8k4"}

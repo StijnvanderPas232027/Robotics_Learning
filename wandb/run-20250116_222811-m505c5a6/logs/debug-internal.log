@@ -1,0 +1,17 @@
+{"time":"2025-01-16T22:28:11.1373582+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_222811-m505c5a6\\logs\\debug-core.log"}
+{"time":"2025-01-16T22:28:11.2482082+01:00","level":"INFO","msg":"created new stream","id":"m505c5a6"}
+{"time":"2025-01-16T22:28:11.2482082+01:00","level":"INFO","msg":"stream: started","id":"m505c5a6"}
+{"time":"2025-01-16T22:28:11.2482082+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"m505c5a6"}
+{"time":"2025-01-16T22:28:11.2482082+01:00","level":"INFO","msg":"handler: started","stream_id":"m505c5a6"}
+{"time":"2025-01-16T22:28:11.2482082+01:00","level":"INFO","msg":"sender: started","stream_id":"m505c5a6"}
+{"time":"2025-01-16T22:28:11.5400742+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T22:28:21.9878723+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T23:14:08.1301118+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T23:14:08.1312278+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T23:14:09.143037+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.6360931}],"total_operations":1}}
+{"time":"2025-01-16T23:14:19.3531486+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T23:14:23.7515187+01:00","level":"INFO","msg":"stream: closing","id":"m505c5a6"}
+{"time":"2025-01-16T23:14:23.7515187+01:00","level":"INFO","msg":"handler: closed","stream_id":"m505c5a6"}
+{"time":"2025-01-16T23:14:23.7515187+01:00","level":"INFO","msg":"sender: closed","stream_id":"m505c5a6"}
+{"time":"2025-01-16T23:14:23.7515187+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m505c5a6"}
+{"time":"2025-01-16T23:14:23.7520493+01:00","level":"INFO","msg":"stream: closed","id":"m505c5a6"}

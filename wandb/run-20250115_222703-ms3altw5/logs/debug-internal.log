@@ -1,0 +1,17 @@
+{"time":"2025-01-15T22:27:03.7782138+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_222703-ms3altw5\\logs\\debug-core.log"}
+{"time":"2025-01-15T22:27:03.8868468+01:00","level":"INFO","msg":"created new stream","id":"ms3altw5"}
+{"time":"2025-01-15T22:27:03.8868468+01:00","level":"INFO","msg":"stream: started","id":"ms3altw5"}
+{"time":"2025-01-15T22:27:03.8868468+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ms3altw5"}
+{"time":"2025-01-15T22:27:03.8868468+01:00","level":"INFO","msg":"sender: started","stream_id":"ms3altw5"}
+{"time":"2025-01-15T22:27:03.8868468+01:00","level":"INFO","msg":"handler: started","stream_id":"ms3altw5"}
+{"time":"2025-01-15T22:27:04.1903358+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T22:27:13.9067292+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T22:27:13.9067292+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T22:27:14.9194389+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model.zip","runtime_seconds":0.4839859,"progress":"140.1KB/140.1KB"}],"total_operations":1}}
+{"time":"2025-01-15T22:27:15.5747762+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T22:27:17.0636638+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T22:27:18.2940108+01:00","level":"INFO","msg":"stream: closing","id":"ms3altw5"}
+{"time":"2025-01-15T22:27:18.2940108+01:00","level":"INFO","msg":"handler: closed","stream_id":"ms3altw5"}
+{"time":"2025-01-15T22:27:18.2940108+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ms3altw5"}
+{"time":"2025-01-15T22:27:18.2950328+01:00","level":"INFO","msg":"sender: closed","stream_id":"ms3altw5"}
+{"time":"2025-01-15T22:27:18.2950328+01:00","level":"INFO","msg":"stream: closed","id":"ms3altw5"}

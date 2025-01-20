@@ -1,0 +1,17 @@
+{"time":"2025-01-15T20:10:33.0982529+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_201032-sxcsqmw6\\logs\\debug-core.log"}
+{"time":"2025-01-15T20:10:33.2079313+01:00","level":"INFO","msg":"created new stream","id":"sxcsqmw6"}
+{"time":"2025-01-15T20:10:33.2086222+01:00","level":"INFO","msg":"stream: started","id":"sxcsqmw6"}
+{"time":"2025-01-15T20:10:33.2086222+01:00","level":"INFO","msg":"handler: started","stream_id":"sxcsqmw6"}
+{"time":"2025-01-15T20:10:33.2086222+01:00","level":"INFO","msg":"sender: started","stream_id":"sxcsqmw6"}
+{"time":"2025-01-15T20:10:33.2086222+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"sxcsqmw6"}
+{"time":"2025-01-15T20:10:33.5011203+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T20:10:44.700555+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T20:24:19.4410805+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-15T20:53:03.9983022+01:00","level":"INFO","msg":"stream: closing","id":"sxcsqmw6"}
+{"time":"2025-01-15T20:53:03.9983022+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T20:53:03.9994471+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T20:53:05.558844+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T20:53:05.8021797+01:00","level":"INFO","msg":"handler: closed","stream_id":"sxcsqmw6"}
+{"time":"2025-01-15T20:53:05.8021797+01:00","level":"INFO","msg":"sender: closed","stream_id":"sxcsqmw6"}
+{"time":"2025-01-15T20:53:05.8021797+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sxcsqmw6"}
+{"time":"2025-01-15T20:53:05.8021797+01:00","level":"INFO","msg":"stream: closed","id":"sxcsqmw6"}

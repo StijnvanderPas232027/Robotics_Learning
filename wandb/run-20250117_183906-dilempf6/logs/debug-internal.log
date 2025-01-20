@@ -1,0 +1,17 @@
+{"time":"2025-01-17T18:39:06.6391477+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_183906-dilempf6\\logs\\debug-core.log"}
+{"time":"2025-01-17T18:39:07.2542623+01:00","level":"INFO","msg":"created new stream","id":"dilempf6"}
+{"time":"2025-01-17T18:39:07.2542623+01:00","level":"INFO","msg":"stream: started","id":"dilempf6"}
+{"time":"2025-01-17T18:39:07.2542623+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dilempf6"}
+{"time":"2025-01-17T18:39:07.2542623+01:00","level":"INFO","msg":"sender: started","stream_id":"dilempf6"}
+{"time":"2025-01-17T18:39:07.2542623+01:00","level":"INFO","msg":"handler: started","stream_id":"dilempf6"}
+{"time":"2025-01-17T18:39:07.5402823+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T18:39:19.0809983+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T19:38:12.1072757+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T19:38:12.1085329+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T19:38:13.1167645+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4859618,"progress":"1.6MB/1.7MB"}],"total_operations":1}}
+{"time":"2025-01-17T19:38:14.2356194+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T19:38:15.4768666+01:00","level":"INFO","msg":"stream: closing","id":"dilempf6"}
+{"time":"2025-01-17T19:38:15.4768666+01:00","level":"INFO","msg":"handler: closed","stream_id":"dilempf6"}
+{"time":"2025-01-17T19:38:15.4768666+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dilempf6"}
+{"time":"2025-01-17T19:38:15.4768666+01:00","level":"INFO","msg":"sender: closed","stream_id":"dilempf6"}
+{"time":"2025-01-17T19:38:15.4768666+01:00","level":"INFO","msg":"stream: closed","id":"dilempf6"}

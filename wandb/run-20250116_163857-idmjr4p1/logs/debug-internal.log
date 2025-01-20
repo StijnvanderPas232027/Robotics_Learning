@@ -1,0 +1,17 @@
+{"time":"2025-01-16T16:38:58.1767366+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_163857-idmjr4p1\\logs\\debug-core.log"}
+{"time":"2025-01-16T16:38:58.588936+01:00","level":"INFO","msg":"created new stream","id":"idmjr4p1"}
+{"time":"2025-01-16T16:38:58.588936+01:00","level":"INFO","msg":"stream: started","id":"idmjr4p1"}
+{"time":"2025-01-16T16:38:58.588936+01:00","level":"INFO","msg":"handler: started","stream_id":"idmjr4p1"}
+{"time":"2025-01-16T16:38:58.588936+01:00","level":"INFO","msg":"sender: started","stream_id":"idmjr4p1"}
+{"time":"2025-01-16T16:38:58.588936+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"idmjr4p1"}
+{"time":"2025-01-16T16:38:58.9071913+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T16:39:09.9626903+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T17:34:59.7669303+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T17:34:59.767461+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T17:35:00.7803725+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.656893,"progress":"1.7MB/1.7MB"},{"desc":"uploading runs\\idmjr4p1\\runs\\idmjr4p1_0\\events.out.tfevents.1737041939.Stijn.6220.0","runtime_seconds":0.0939694,"progress":"384.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.0939694,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-16T17:35:01.5513323+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T17:35:02.7701458+01:00","level":"INFO","msg":"stream: closing","id":"idmjr4p1"}
+{"time":"2025-01-16T17:35:02.7710376+01:00","level":"INFO","msg":"handler: closed","stream_id":"idmjr4p1"}
+{"time":"2025-01-16T17:35:02.7710376+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"idmjr4p1"}
+{"time":"2025-01-16T17:35:02.7710376+01:00","level":"INFO","msg":"sender: closed","stream_id":"idmjr4p1"}
+{"time":"2025-01-16T17:35:02.7710376+01:00","level":"INFO","msg":"stream: closed","id":"idmjr4p1"}

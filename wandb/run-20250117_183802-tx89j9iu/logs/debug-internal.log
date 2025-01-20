@@ -1,0 +1,17 @@
+{"time":"2025-01-17T18:38:02.895136+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_183802-tx89j9iu\\logs\\debug-core.log"}
+{"time":"2025-01-17T18:38:03.5068665+01:00","level":"INFO","msg":"created new stream","id":"tx89j9iu"}
+{"time":"2025-01-17T18:38:03.5068665+01:00","level":"INFO","msg":"stream: started","id":"tx89j9iu"}
+{"time":"2025-01-17T18:38:03.5068665+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"tx89j9iu"}
+{"time":"2025-01-17T18:38:03.5068665+01:00","level":"INFO","msg":"handler: started","stream_id":"tx89j9iu"}
+{"time":"2025-01-17T18:38:03.5068665+01:00","level":"INFO","msg":"sender: started","stream_id":"tx89j9iu"}
+{"time":"2025-01-17T18:38:03.7966397+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T18:38:14.2884308+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T19:30:07.1680724+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T19:30:07.1685817+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T19:30:08.1754734+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4678477,"progress":"1.3MB/1.7MB"},{"desc":"uploading runs\\tx89j9iu\\runs\\tx89j9iu_0\\events.out.tfevents.1737135484.Stijn.6964.6","runtime_seconds":0.1411259,"progress":"112.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.1411259,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-17T19:30:09.0128589+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T19:30:10.4598446+01:00","level":"INFO","msg":"stream: closing","id":"tx89j9iu"}
+{"time":"2025-01-17T19:30:10.4598446+01:00","level":"INFO","msg":"handler: closed","stream_id":"tx89j9iu"}
+{"time":"2025-01-17T19:30:10.4598446+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tx89j9iu"}
+{"time":"2025-01-17T19:30:10.4598446+01:00","level":"INFO","msg":"sender: closed","stream_id":"tx89j9iu"}
+{"time":"2025-01-17T19:30:10.4598446+01:00","level":"INFO","msg":"stream: closed","id":"tx89j9iu"}

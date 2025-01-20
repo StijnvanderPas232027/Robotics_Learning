@@ -1,0 +1,8 @@
+{"time":"2025-01-15T10:33:47.5746477+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_103347-vufevg8s\\logs\\debug-core.log"}
+{"time":"2025-01-15T10:33:47.8016865+01:00","level":"INFO","msg":"created new stream","id":"vufevg8s"}
+{"time":"2025-01-15T10:33:47.8016865+01:00","level":"INFO","msg":"stream: started","id":"vufevg8s"}
+{"time":"2025-01-15T10:33:47.8016865+01:00","level":"INFO","msg":"handler: started","stream_id":"vufevg8s"}
+{"time":"2025-01-15T10:33:47.8016865+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vufevg8s"}
+{"time":"2025-01-15T10:33:47.8016865+01:00","level":"INFO","msg":"sender: started","stream_id":"vufevg8s"}
+{"time":"2025-01-15T10:33:48.2154805+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T10:34:00.2440312+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}

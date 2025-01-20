@@ -1,0 +1,8 @@
+{"time":"2025-01-16T14:23:28.2424527+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_142328-r90b8pnq\\logs\\debug-core.log"}
+{"time":"2025-01-16T14:23:28.348716+01:00","level":"INFO","msg":"created new stream","id":"r90b8pnq"}
+{"time":"2025-01-16T14:23:28.3493423+01:00","level":"INFO","msg":"stream: started","id":"r90b8pnq"}
+{"time":"2025-01-16T14:23:28.3493423+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"r90b8pnq"}
+{"time":"2025-01-16T14:23:28.3493423+01:00","level":"INFO","msg":"handler: started","stream_id":"r90b8pnq"}
+{"time":"2025-01-16T14:23:28.3493423+01:00","level":"INFO","msg":"sender: started","stream_id":"r90b8pnq"}
+{"time":"2025-01-16T14:23:28.5873353+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T14:23:38.8586074+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}

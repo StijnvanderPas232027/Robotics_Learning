@@ -1,0 +1,19 @@
+{"time":"2025-01-16T23:16:58.9654967+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_231658-bk5c1b35\\logs\\debug-core.log"}
+{"time":"2025-01-16T23:16:59.0760971+01:00","level":"INFO","msg":"created new stream","id":"bk5c1b35"}
+{"time":"2025-01-16T23:16:59.0760971+01:00","level":"INFO","msg":"stream: started","id":"bk5c1b35"}
+{"time":"2025-01-16T23:16:59.0760971+01:00","level":"INFO","msg":"handler: started","stream_id":"bk5c1b35"}
+{"time":"2025-01-16T23:16:59.0760971+01:00","level":"INFO","msg":"sender: started","stream_id":"bk5c1b35"}
+{"time":"2025-01-16T23:16:59.0760971+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"bk5c1b35"}
+{"time":"2025-01-16T23:17:01.3412381+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T23:17:12.7478376+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T23:23:22.3819629+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"context deadline exceeded\",\"path\":[\"project\",\"run\"]}],\"data\":{\"project\":{\"run\":null}}}"}
+{"time":"2025-01-16T23:24:02.0977824+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-01-16T23:24:34.4183546+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-01-17T00:08:59.5791539+01:00","level":"INFO","msg":"stream: closing","id":"bk5c1b35"}
+{"time":"2025-01-17T00:08:59.5791539+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T00:08:59.5798155+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T00:09:01.527748+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T00:09:01.7817978+01:00","level":"INFO","msg":"handler: closed","stream_id":"bk5c1b35"}
+{"time":"2025-01-17T00:09:01.7817978+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bk5c1b35"}
+{"time":"2025-01-17T00:09:01.7817978+01:00","level":"INFO","msg":"sender: closed","stream_id":"bk5c1b35"}
+{"time":"2025-01-17T00:09:01.782989+01:00","level":"INFO","msg":"stream: closed","id":"bk5c1b35"}

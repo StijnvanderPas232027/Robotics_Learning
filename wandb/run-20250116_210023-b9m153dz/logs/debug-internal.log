@@ -1,0 +1,19 @@
+{"time":"2025-01-16T21:00:23.5442612+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_210023-b9m153dz\\logs\\debug-core.log"}
+{"time":"2025-01-16T21:00:24.0613513+01:00","level":"INFO","msg":"created new stream","id":"b9m153dz"}
+{"time":"2025-01-16T21:00:24.0613513+01:00","level":"INFO","msg":"stream: started","id":"b9m153dz"}
+{"time":"2025-01-16T21:00:24.0613513+01:00","level":"INFO","msg":"sender: started","stream_id":"b9m153dz"}
+{"time":"2025-01-16T21:00:24.0613513+01:00","level":"INFO","msg":"handler: started","stream_id":"b9m153dz"}
+{"time":"2025-01-16T21:00:24.0613513+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"b9m153dz"}
+{"time":"2025-01-16T21:00:24.3165968+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T21:00:35.9739558+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T21:44:39.8558735+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/b9m153dz/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-01-16T21:53:57.2430418+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-16T22:13:43.0824942+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T22:13:43.0830342+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T22:13:44.0927377+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6333557,"progress":"1.7MB/1.7MB"},{"desc":"uploading runs\\b9m153dz\\runs\\b9m153dz_0\\events.out.tfevents.1737057625.Stijn.568.0","runtime_seconds":0.0260442,"progress":"160.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.0260442,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-16T22:13:44.9728114+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T22:13:46.1817989+01:00","level":"INFO","msg":"stream: closing","id":"b9m153dz"}
+{"time":"2025-01-16T22:13:46.1817989+01:00","level":"INFO","msg":"handler: closed","stream_id":"b9m153dz"}
+{"time":"2025-01-16T22:13:46.1817989+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b9m153dz"}
+{"time":"2025-01-16T22:13:46.1817989+01:00","level":"INFO","msg":"sender: closed","stream_id":"b9m153dz"}
+{"time":"2025-01-16T22:13:46.1817989+01:00","level":"INFO","msg":"stream: closed","id":"b9m153dz"}

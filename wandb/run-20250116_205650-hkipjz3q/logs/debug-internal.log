@@ -1,0 +1,18 @@
+{"time":"2025-01-16T20:56:50.2457733+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_205650-hkipjz3q\\logs\\debug-core.log"}
+{"time":"2025-01-16T20:56:50.3558457+01:00","level":"INFO","msg":"created new stream","id":"hkipjz3q"}
+{"time":"2025-01-16T20:56:50.3558457+01:00","level":"INFO","msg":"stream: started","id":"hkipjz3q"}
+{"time":"2025-01-16T20:56:50.3558457+01:00","level":"INFO","msg":"handler: started","stream_id":"hkipjz3q"}
+{"time":"2025-01-16T20:56:50.3558457+01:00","level":"INFO","msg":"sender: started","stream_id":"hkipjz3q"}
+{"time":"2025-01-16T20:56:50.3558457+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hkipjz3q"}
+{"time":"2025-01-16T20:56:50.65641+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T20:57:02.0093566+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T21:42:53.1098747+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-16T21:56:10.7106246+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T21:56:10.7111296+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T21:56:11.7140059+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4421155,"progress":"1.4MB/1.7MB"},{"desc":"uploading config.yaml","runtime_seconds":0.245317,"progress":"3.8KB/3.8KB"}],"total_operations":2}}
+{"time":"2025-01-16T21:56:12.7242342+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T21:56:13.9456011+01:00","level":"INFO","msg":"stream: closing","id":"hkipjz3q"}
+{"time":"2025-01-16T21:56:13.9456011+01:00","level":"INFO","msg":"handler: closed","stream_id":"hkipjz3q"}
+{"time":"2025-01-16T21:56:13.9456011+01:00","level":"INFO","msg":"sender: closed","stream_id":"hkipjz3q"}
+{"time":"2025-01-16T21:56:13.9456011+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hkipjz3q"}
+{"time":"2025-01-16T21:56:13.9461388+01:00","level":"INFO","msg":"stream: closed","id":"hkipjz3q"}

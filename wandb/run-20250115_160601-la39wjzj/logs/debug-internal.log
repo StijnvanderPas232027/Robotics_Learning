@@ -1,0 +1,16 @@
+{"time":"2025-01-15T16:06:01.6476525+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_160601-la39wjzj\\logs\\debug-core.log"}
+{"time":"2025-01-15T16:06:01.7575614+01:00","level":"INFO","msg":"created new stream","id":"la39wjzj"}
+{"time":"2025-01-15T16:06:01.7575614+01:00","level":"INFO","msg":"stream: started","id":"la39wjzj"}
+{"time":"2025-01-15T16:06:01.7575614+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"la39wjzj"}
+{"time":"2025-01-15T16:06:01.7575614+01:00","level":"INFO","msg":"sender: started","stream_id":"la39wjzj"}
+{"time":"2025-01-15T16:06:01.7581586+01:00","level":"INFO","msg":"handler: started","stream_id":"la39wjzj"}
+{"time":"2025-01-15T16:06:02.1380739+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T16:06:13.3073232+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T16:48:34.2797027+01:00","level":"INFO","msg":"stream: closing","id":"la39wjzj"}
+{"time":"2025-01-15T16:48:34.2802382+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T16:48:34.281914+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T16:48:35.8165667+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T16:48:36.039011+01:00","level":"INFO","msg":"handler: closed","stream_id":"la39wjzj"}
+{"time":"2025-01-15T16:48:36.039011+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"la39wjzj"}
+{"time":"2025-01-15T16:48:36.039011+01:00","level":"INFO","msg":"sender: closed","stream_id":"la39wjzj"}
+{"time":"2025-01-15T16:48:36.039011+01:00","level":"INFO","msg":"stream: closed","id":"la39wjzj"}

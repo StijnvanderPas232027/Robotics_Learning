@@ -1,0 +1,17 @@
+{"time":"2025-01-15T22:25:50.4724266+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_222550-mhvx5gw7\\logs\\debug-core.log"}
+{"time":"2025-01-15T22:25:50.5817155+01:00","level":"INFO","msg":"created new stream","id":"mhvx5gw7"}
+{"time":"2025-01-15T22:25:50.5817155+01:00","level":"INFO","msg":"stream: started","id":"mhvx5gw7"}
+{"time":"2025-01-15T22:25:50.5817155+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mhvx5gw7"}
+{"time":"2025-01-15T22:25:50.5817155+01:00","level":"INFO","msg":"handler: started","stream_id":"mhvx5gw7"}
+{"time":"2025-01-15T22:25:50.5817155+01:00","level":"INFO","msg":"sender: started","stream_id":"mhvx5gw7"}
+{"time":"2025-01-15T22:25:50.9038419+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T22:25:58.9378469+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T22:25:58.938458+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T22:25:59.938739+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model.zip","runtime_seconds":0.441983,"progress":"140.1KB/140.1KB"}],"total_operations":1}}
+{"time":"2025-01-15T22:26:01.2104556+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T22:26:02.5823564+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T22:26:03.8177125+01:00","level":"INFO","msg":"stream: closing","id":"mhvx5gw7"}
+{"time":"2025-01-15T22:26:03.8177125+01:00","level":"INFO","msg":"handler: closed","stream_id":"mhvx5gw7"}
+{"time":"2025-01-15T22:26:03.8177125+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mhvx5gw7"}
+{"time":"2025-01-15T22:26:03.8177125+01:00","level":"INFO","msg":"sender: closed","stream_id":"mhvx5gw7"}
+{"time":"2025-01-15T22:26:03.8177125+01:00","level":"INFO","msg":"stream: closed","id":"mhvx5gw7"}

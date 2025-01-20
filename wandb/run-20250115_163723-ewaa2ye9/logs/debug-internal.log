@@ -1,0 +1,21 @@
+{"time":"2025-01-15T16:37:23.6831196+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_163723-ewaa2ye9\\logs\\debug-core.log"}
+{"time":"2025-01-15T16:37:23.7985807+01:00","level":"INFO","msg":"created new stream","id":"ewaa2ye9"}
+{"time":"2025-01-15T16:37:23.799772+01:00","level":"INFO","msg":"handler: started","stream_id":"ewaa2ye9"}
+{"time":"2025-01-15T16:37:23.799772+01:00","level":"INFO","msg":"stream: started","id":"ewaa2ye9"}
+{"time":"2025-01-15T16:37:23.799772+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ewaa2ye9"}
+{"time":"2025-01-15T16:37:23.799772+01:00","level":"INFO","msg":"sender: started","stream_id":"ewaa2ye9"}
+{"time":"2025-01-15T16:37:24.1134039+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T16:37:35.6277671+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T19:51:37.5319402+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/ewaa2ye9/file_stream\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-15T19:51:37.6103419+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-15T19:51:39.6431639+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/ewaa2ye9/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-15T19:51:39.7986632+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-15T19:58:20.6518717+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/ewaa2ye9/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-15T20:03:01.7543486+01:00","level":"INFO","msg":"stream: closing","id":"ewaa2ye9"}
+{"time":"2025-01-15T20:03:01.7543486+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T20:03:01.7548529+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T20:03:03.1748839+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T20:03:03.3951782+01:00","level":"INFO","msg":"handler: closed","stream_id":"ewaa2ye9"}
+{"time":"2025-01-15T20:03:03.3951782+01:00","level":"INFO","msg":"sender: closed","stream_id":"ewaa2ye9"}
+{"time":"2025-01-15T20:03:03.3951782+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ewaa2ye9"}
+{"time":"2025-01-15T20:03:03.3957534+01:00","level":"INFO","msg":"stream: closed","id":"ewaa2ye9"}

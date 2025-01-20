@@ -1,0 +1,18 @@
+{"time":"2025-01-16T11:55:46.5211755+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_115546-o8ukuqfa\\logs\\debug-core.log"}
+{"time":"2025-01-16T11:55:47.157394+01:00","level":"INFO","msg":"created new stream","id":"o8ukuqfa"}
+{"time":"2025-01-16T11:55:47.157394+01:00","level":"INFO","msg":"stream: started","id":"o8ukuqfa"}
+{"time":"2025-01-16T11:55:47.1579125+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"o8ukuqfa"}
+{"time":"2025-01-16T11:55:47.1589211+01:00","level":"INFO","msg":"sender: started","stream_id":"o8ukuqfa"}
+{"time":"2025-01-16T11:55:47.1589211+01:00","level":"INFO","msg":"handler: started","stream_id":"o8ukuqfa"}
+{"time":"2025-01-16T11:55:47.51578+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T11:55:59.6548835+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T12:39:56.5179408+01:00","level":"ERROR","msg":"file transfer: upload: failed to upload: 400 Bad Request","task":"DefaultUploadTask{FileKind: 0, Path: C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_115546-o8ukuqfa\\files\\model.zip, Name: model.zip, Url: https://storage.googleapis.com/wandb-production.appspot.com/232027-breda-university-of-applied-sciences/RL_task11/o8ukuqfa/model.zip?Expires=1737113996&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=BDtyNiBA7n4aIjSGjvU4%2BQBpsk0iYDms7LR9XgrxFCB8BFigG40h%2BnxqZoV0%2FgdRjYEDWAH4QHYPEccySvgqH900PX8ltkbzwzmTYB5DYZKuW0Dqmq%2B5sbzrsi1tV0D5OGJsU%2FMW%2FdUcrWsgQeOI2QWRrMd8XseJbbZQuDQ2VqCUifBby%2BxMPrrlF22VQljlmOGkMzjmTjykV7Lt8%2FrD%2FSLzphA10ynbpGcHZgW%2F7nBeUID3Frw4ge5OkRcny9wZYDrCAe03stx1GXQinAYjBoTyxnAkclbsRnQpuxqOwXx0nhpO0opOBqAOcGk5wdVoi3i8WL7XT4mcBvhktODe3w%3D%3D, Size: 147163}"}
+{"time":"2025-01-16T12:56:24.3460308+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T12:56:24.3465543+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T12:56:25.3488838+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6619804,"progress":"1.5MB/1.7MB"},{"desc":"uploading model.zip","runtime_seconds":0.3785577,"progress":"143.7KB/143.7KB"},{"desc":"uploading runs\\o8ukuqfa\\runs\\o8ukuqfa_0\\events.out.tfevents.1737024949.Stijn.16984.0","runtime_seconds":0.3785577,"progress":"464.0KB/1.0MB"}],"total_operations":3}}
+{"time":"2025-01-16T12:56:26.0573019+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T12:56:27.3491779+01:00","level":"INFO","msg":"stream: closing","id":"o8ukuqfa"}
+{"time":"2025-01-16T12:56:27.3491779+01:00","level":"INFO","msg":"handler: closed","stream_id":"o8ukuqfa"}
+{"time":"2025-01-16T12:56:27.3491779+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"o8ukuqfa"}
+{"time":"2025-01-16T12:56:27.3491779+01:00","level":"INFO","msg":"sender: closed","stream_id":"o8ukuqfa"}
+{"time":"2025-01-16T12:56:27.3491779+01:00","level":"INFO","msg":"stream: closed","id":"o8ukuqfa"}

@@ -1,0 +1,18 @@
+{"time":"2025-01-16T12:40:01.6294857+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_124001-f7xvpgdq\\logs\\debug-core.log"}
+{"time":"2025-01-16T12:40:01.8394045+01:00","level":"INFO","msg":"created new stream","id":"f7xvpgdq"}
+{"time":"2025-01-16T12:40:01.8399341+01:00","level":"INFO","msg":"stream: started","id":"f7xvpgdq"}
+{"time":"2025-01-16T12:40:01.8399341+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"f7xvpgdq"}
+{"time":"2025-01-16T12:40:01.8399341+01:00","level":"INFO","msg":"handler: started","stream_id":"f7xvpgdq"}
+{"time":"2025-01-16T12:40:01.8399341+01:00","level":"INFO","msg":"sender: started","stream_id":"f7xvpgdq"}
+{"time":"2025-01-16T12:40:02.0912714+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T12:40:12.5005803+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T13:21:17.6141263+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/f7xvpgdq/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-01-16T13:28:53.1476212+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T13:28:53.1481366+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T13:28:54.1577798+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6501154,"progress":"1.6MB/1.7MB"},{"desc":"uploading runs\\f7xvpgdq\\runs\\f7xvpgdq_0\\events.out.tfevents.1737027602.Stijn.10192.1","runtime_seconds":0.4263941,"progress":"464.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.4263941,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-16T13:28:54.7198502+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T13:28:55.9272902+01:00","level":"INFO","msg":"stream: closing","id":"f7xvpgdq"}
+{"time":"2025-01-16T13:28:55.9272902+01:00","level":"INFO","msg":"handler: closed","stream_id":"f7xvpgdq"}
+{"time":"2025-01-16T13:28:55.9272902+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"f7xvpgdq"}
+{"time":"2025-01-16T13:28:55.9272902+01:00","level":"INFO","msg":"sender: closed","stream_id":"f7xvpgdq"}
+{"time":"2025-01-16T13:28:55.9278271+01:00","level":"INFO","msg":"stream: closed","id":"f7xvpgdq"}

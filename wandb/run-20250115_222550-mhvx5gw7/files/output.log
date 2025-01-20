@@ -1,0 +1,106 @@
+Successfully loaded plate texture: textures/_plates/034_43-13-ROOT1-2023-08-08_control_pH7_-Fe+B_col0_02-Fish Eye Corrected.png
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+[34m[1mwandb[0m: [33mWARNING[0m When using several event log directories, please call `wandb.tensorboard.patch(root_logdir="...")` before `wandb.init`
+Logging to runs/mhvx5gw7\runs/mhvx5gw7_0
+[2K---------------------------------━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1,872/10,000 [0m [ [33m0:00:01[0m < [36m0:00:05[0m , [31m1,778 it/s[0m ]
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | -146     |
+| time/              |          |
+|    fps             | 1716     |
+|    iterations      | 1        |
+|    time_elapsed    | 1        |
+|    total_timesteps | 2048     |
+---------------------------------
+[2K-----------------------------------------━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3,756/10,000 [0m [ [33m0:00:02[0m < [36m0:00:05[0m , [31m1,526 it/s[0m ]
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -186        |
+| time/                   |             |
+|    fps                  | 1545        |
+|    iterations           | 2           |
+|    time_elapsed         | 2           |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.008765673 |
+|    clip_fraction        | 0.0689      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.31       |
+|    explained_variance   | 0.00317     |
+|    learning_rate        | 0.00362     |
+|    loss                 | 0.229       |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.00503    |
+|    std                  | 1.02        |
+|    value_loss           | 0.912       |
+-----------------------------------------
+[2K------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━[0m [32m6,041/10,000 [0m [ [33m0:00:04[0m < [36m0:00:03[0m , [31m1,495 it/s[0m ]s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -177         |
+| time/                   |              |
+|    fps                  | 1492         |
+|    iterations           | 3            |
+|    time_elapsed         | 4            |
+|    total_timesteps      | 6144         |
+| train/                  |              |
+|    approx_kl            | 0.0056379777 |
+|    clip_fraction        | 0.0299       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.31        |
+|    explained_variance   | -0.135       |
+|    learning_rate        | 0.00362      |
+|    loss                 | 0.144        |
+|    n_updates            | 20           |
+|    policy_gradient_loss | -0.00165     |
+|    std                  | 1.01         |
+|    value_loss           | 1.43         |
+------------------------------------------
+[2K------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━[0m [32m7,979/10,000 [0m [ [33m0:00:05[0m < [36m0:00:02[0m , [31m1,443 it/s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -166         |
+| time/                   |              |
+|    fps                  | 1443         |
+|    iterations           | 4            |
+|    time_elapsed         | 5            |
+|    total_timesteps      | 8192         |
+| train/                  |              |
+|    approx_kl            | 0.0071449326 |
+|    clip_fraction        | 0.0449       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -4.28        |
+|    explained_variance   | 0.226        |
+|    learning_rate        | 0.00362      |
+|    loss                 | 0.202        |
+|    n_updates            | 30           |
+|    policy_gradient_loss | -0.00448     |
+|    std                  | 1            |
+|    value_loss           | 0.881        |
+------------------------------------------
+[2K-----------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10,074/10,000 [0m [ [33m0:00:07[0m < [36m0:00:00[0m , [31m1,414 it/s[0m ] [31m1,410 it/s[0m ],410 it/s[0m ]
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -164        |
+| time/                   |             |
+|    fps                  | 1416        |
+|    iterations           | 5           |
+|    time_elapsed         | 7           |
+|    total_timesteps      | 10240       |
+| train/                  |             |
+|    approx_kl            | 0.012527045 |
+|    clip_fraction        | 0.0944      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.21       |
+|    explained_variance   | 0.337       |
+|    learning_rate        | 0.00362     |
+|    loss                 | 0.174       |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.00789    |
+|    std                  | 0.977       |
+|    value_loss           | 0.64        |
+-----------------------------------------
+[2K[35m 100%[0m [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10,240/10,000 [0m [ [33m0:00:07[0m < [36m0:00:00[0m , [31m1,344 it/s[0m ]
+[?25hModel saved at iteration 3: models\iteration_3/30000

@@ -12,23 +12,91 @@ class Simulation:
     def __init__(self, num_agents, render=True, rgb_array=False):
         self.render = render
         self.rgb_array = rgb_array
+
         if render:
-            mode = p.GUI # for graphical version
+            mode = p.GUI  # for graphical version
         else:
-            mode = p.DIRECT # for non-graphical version
+            mode = p.DIRECT  # for non-graphical version
+
         # Set up the simulation
         self.physicsClient = p.connect(mode)
         # Hide the default GUI components
         p.configureDebugVisualizer(p.COV_ENABLE_GUI, 0)
-        p.setAdditionalSearchPath(pybullet_data.getDataPath()) #optionally
-        p.setGravity(0,0,-10)
-        #p.setPhysicsEngineParameter(contactBreakingThreshold=0.000001)
-        # load a texture
-        texture_list = os.listdir("textures")
+        p.setAdditionalSearchPath(pybullet_data.getDataPath())
+        p.setGravity(0, 0, -10)
+
+        # Maximum number of times to retry
+        self.max_retries = 20  
+
+        # --- 1) Gather file lists and do initial checks ---
+        texture_dir = "textures"
+        plate_dir   = "textures/_plates"
+        
+        texture_list = os.listdir(texture_dir)
+        plate_list   = os.listdir(plate_dir)
+
+        if not texture_list:
+            raise FileNotFoundError(f"No textures found in '{texture_dir}'.")
+        if not plate_list:
+            raise FileNotFoundError(f"No plate textures found in '{plate_dir}'.")
+
+        # --- 2) Pick one random texture from textures[:-1] ---
         random_texture = random.choice(texture_list[:-1])
+        # Get the index of that texture in texture_list
         random_texture_index = texture_list.index(random_texture)
-        self.plate_image_path = f'textures/_plates/{os.listdir("textures/_plates")[random_texture_index]}'
-        self.textureId = p.loadTexture(f'textures/{random_texture}')
+
+        # --- 3) Use the same index to pick the plate texture from plate_list ---
+        # Make sure the index is valid for plate_list as well
+        if random_texture_index >= len(plate_list):
+            raise IndexError(
+                "Index mismatch: 'textures' and '_plates' directories are not aligned in file count."
+            )
+
+        plate_filename = plate_list[random_texture_index]
+        # Construct full paths
+        self.plate_image_path = os.path.join(plate_dir, plate_filename)
+        self.main_texture_path = os.path.join(texture_dir, random_texture)
+
+        print(f"Selected random main texture: {self.main_texture_path}")
+        print(f"Selected aligned plate texture: {self.plate_image_path}")
+
+        # --- 4) Retry logic using the chosen files ---
+        attempts = 0
+
+        while attempts < self.max_retries:
+            try:
+                # Ensure files actually exist (in case they were deleted or renamed)
+                if not os.path.isfile(self.main_texture_path):
+                    raise FileNotFoundError(f"Main texture not found: {self.main_texture_path}")
+                if not os.path.isfile(self.plate_image_path):
+                    raise FileNotFoundError(f"Plate texture not found: {self.plate_image_path}")
+
+                # Load the texture in PyBullet
+                self.textureId = p.loadTexture(self.main_texture_path)
+                print(f"Successfully loaded plate texture: {self.plate_image_path}")
+                break  # If we got here, everything succeeded
+
+            except (FileNotFoundError, IndexError) as e:
+                attempts += 1
+                print(f"Attempt {attempts}/{self.max_retries} failed: {e}")
+                time.sleep(1)  # Wait a bit before retrying
+
+            except p.error as e:
+                # Catch any PyBullet-specific errors
+                attempts += 1
+                print(f"Attempt {attempts}/{self.max_retries} failed to load texture in PyBullet: {e}")
+                time.sleep(1)
+
+        # --- 5) If all attempts failed, raise an error ---
+        if attempts == self.max_retries:
+            raise RuntimeError(
+                f"Failed to load textures after {self.max_retries} attempts."
+            )
+
+
+
+
+
         #print(f'textureId: {self.textureId}')
 
         # Set the camera parameters

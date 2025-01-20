@@ -1,0 +1,17 @@
+{"time":"2025-01-15T23:55:43.3183735+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_235543-xi36nmo7\\logs\\debug-core.log"}
+{"time":"2025-01-15T23:55:43.934043+01:00","level":"INFO","msg":"created new stream","id":"xi36nmo7"}
+{"time":"2025-01-15T23:55:43.934043+01:00","level":"INFO","msg":"stream: started","id":"xi36nmo7"}
+{"time":"2025-01-15T23:55:43.934043+01:00","level":"INFO","msg":"sender: started","stream_id":"xi36nmo7"}
+{"time":"2025-01-15T23:55:43.934043+01:00","level":"INFO","msg":"handler: started","stream_id":"xi36nmo7"}
+{"time":"2025-01-15T23:55:43.934043+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"xi36nmo7"}
+{"time":"2025-01-15T23:55:44.1709648+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T23:55:54.6208524+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T00:49:20.3207681+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T00:49:20.3215025+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T00:49:21.3242762+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.58482,"progress":"1.3MB/1.7MB"},{"desc":"uploading model.zip","runtime_seconds":0.4290123,"progress":"143.7KB/143.7KB"},{"desc":"uploading runs\\xi36nmo7\\runs\\xi36nmo7_0\\events.out.tfevents.1736981744.Stijn.7932.1","runtime_seconds":0.4290123,"progress":"192.0KB/1.0MB"}],"total_operations":3}}
+{"time":"2025-01-16T00:49:22.0903448+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T00:49:23.3038846+01:00","level":"INFO","msg":"stream: closing","id":"xi36nmo7"}
+{"time":"2025-01-16T00:49:23.3038846+01:00","level":"INFO","msg":"handler: closed","stream_id":"xi36nmo7"}
+{"time":"2025-01-16T00:49:23.3038846+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xi36nmo7"}
+{"time":"2025-01-16T00:49:23.3038846+01:00","level":"INFO","msg":"sender: closed","stream_id":"xi36nmo7"}
+{"time":"2025-01-16T00:49:23.3043906+01:00","level":"INFO","msg":"stream: closed","id":"xi36nmo7"}

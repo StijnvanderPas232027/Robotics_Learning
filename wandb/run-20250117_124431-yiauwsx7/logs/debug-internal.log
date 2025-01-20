@@ -1,0 +1,17 @@
+{"time":"2025-01-17T12:44:31.6714683+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_124431-yiauwsx7\\logs\\debug-core.log"}
+{"time":"2025-01-17T12:44:32.3248468+01:00","level":"INFO","msg":"created new stream","id":"yiauwsx7"}
+{"time":"2025-01-17T12:44:32.3248468+01:00","level":"INFO","msg":"stream: started","id":"yiauwsx7"}
+{"time":"2025-01-17T12:44:32.3248468+01:00","level":"INFO","msg":"handler: started","stream_id":"yiauwsx7"}
+{"time":"2025-01-17T12:44:32.3248468+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"yiauwsx7"}
+{"time":"2025-01-17T12:44:32.3253917+01:00","level":"INFO","msg":"sender: started","stream_id":"yiauwsx7"}
+{"time":"2025-01-17T12:44:32.9505591+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T12:44:44.0786729+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T13:37:00.3833223+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T13:37:00.3838284+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T13:37:01.3949073+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.640879,"progress":"1.7MB/1.7MB"},{"desc":"uploading model.zip","runtime_seconds":0.2694419,"progress":"143.7KB/143.7KB"},{"desc":"uploading runs\\yiauwsx7\\runs\\yiauwsx7_0\\events.out.tfevents.1737114274.Stijn.22884.0","runtime_seconds":0.2694419,"progress":"464.0KB/1.0MB"}],"total_operations":3}}
+{"time":"2025-01-17T13:37:01.8928659+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T13:37:03.2203009+01:00","level":"INFO","msg":"stream: closing","id":"yiauwsx7"}
+{"time":"2025-01-17T13:37:03.2203009+01:00","level":"INFO","msg":"handler: closed","stream_id":"yiauwsx7"}
+{"time":"2025-01-17T13:37:03.2203009+01:00","level":"INFO","msg":"sender: closed","stream_id":"yiauwsx7"}
+{"time":"2025-01-17T13:37:03.2203009+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yiauwsx7"}
+{"time":"2025-01-17T13:37:03.2203009+01:00","level":"INFO","msg":"stream: closed","id":"yiauwsx7"}

@@ -1,0 +1,16 @@
+{"time":"2025-01-15T20:11:22.1870513+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_201121-yat6b6rp\\logs\\debug-core.log"}
+{"time":"2025-01-15T20:11:22.3033589+01:00","level":"INFO","msg":"created new stream","id":"yat6b6rp"}
+{"time":"2025-01-15T20:11:22.3033589+01:00","level":"INFO","msg":"stream: started","id":"yat6b6rp"}
+{"time":"2025-01-15T20:11:22.3033589+01:00","level":"INFO","msg":"handler: started","stream_id":"yat6b6rp"}
+{"time":"2025-01-15T20:11:22.3033589+01:00","level":"INFO","msg":"sender: started","stream_id":"yat6b6rp"}
+{"time":"2025-01-15T20:11:22.3033589+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"yat6b6rp"}
+{"time":"2025-01-15T20:11:22.5892801+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T20:11:33.8162269+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T20:53:10.3684551+01:00","level":"INFO","msg":"stream: closing","id":"yat6b6rp"}
+{"time":"2025-01-15T20:53:10.3684551+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T20:53:10.3690687+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T20:53:11.8498215+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T20:53:12.0822174+01:00","level":"INFO","msg":"handler: closed","stream_id":"yat6b6rp"}
+{"time":"2025-01-15T20:53:12.0822174+01:00","level":"INFO","msg":"sender: closed","stream_id":"yat6b6rp"}
+{"time":"2025-01-15T20:53:12.0822174+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yat6b6rp"}
+{"time":"2025-01-15T20:53:12.0837635+01:00","level":"INFO","msg":"stream: closed","id":"yat6b6rp"}

@@ -1,0 +1,15 @@
+{"time":"2025-01-13T12:49:35.6491244+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250113_124935-drqnsxkj\\logs\\debug-core.log"}
+{"time":"2025-01-13T12:49:35.7659641+01:00","level":"INFO","msg":"created new stream","id":"drqnsxkj"}
+{"time":"2025-01-13T12:49:35.7659641+01:00","level":"INFO","msg":"stream: started","id":"drqnsxkj"}
+{"time":"2025-01-13T12:49:35.7659641+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"drqnsxkj"}
+{"time":"2025-01-13T12:49:35.7665345+01:00","level":"INFO","msg":"sender: started","stream_id":"drqnsxkj"}
+{"time":"2025-01-13T12:49:35.7665345+01:00","level":"INFO","msg":"handler: started","stream_id":"drqnsxkj"}
+{"time":"2025-01-13T12:49:36.0614967+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-13T12:49:36.2714202+01:00","level":"INFO","msg":"stream: closing","id":"drqnsxkj"}
+{"time":"2025-01-13T12:49:36.2714202+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-13T12:49:36.2720234+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-13T12:49:37.3240815+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-13T12:49:37.5099669+01:00","level":"INFO","msg":"handler: closed","stream_id":"drqnsxkj"}
+{"time":"2025-01-13T12:49:37.5099669+01:00","level":"INFO","msg":"sender: closed","stream_id":"drqnsxkj"}
+{"time":"2025-01-13T12:49:37.5099669+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"drqnsxkj"}
+{"time":"2025-01-13T12:49:37.5104719+01:00","level":"INFO","msg":"stream: closed","id":"drqnsxkj"}

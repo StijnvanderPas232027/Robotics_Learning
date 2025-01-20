@@ -1,0 +1,17 @@
+{"time":"2025-01-16T12:40:12.2746956+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_124012-pbev9e9x\\logs\\debug-core.log"}
+{"time":"2025-01-16T12:40:12.6858336+01:00","level":"INFO","msg":"created new stream","id":"pbev9e9x"}
+{"time":"2025-01-16T12:40:12.6858336+01:00","level":"INFO","msg":"stream: started","id":"pbev9e9x"}
+{"time":"2025-01-16T12:40:12.6858336+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"pbev9e9x"}
+{"time":"2025-01-16T12:40:12.6858336+01:00","level":"INFO","msg":"handler: started","stream_id":"pbev9e9x"}
+{"time":"2025-01-16T12:40:12.6858336+01:00","level":"INFO","msg":"sender: started","stream_id":"pbev9e9x"}
+{"time":"2025-01-16T12:40:12.9466635+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T12:40:23.3576604+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T13:23:00.8741614+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T13:23:00.8749158+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T13:23:01.8772472+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4097559,"progress":"1.1MB/1.7MB"},{"desc":"uploading config.yaml","runtime_seconds":0.2336296,"progress":"3.8KB/3.8KB"},{"desc":"uploading runs\\pbev9e9x\\runs\\pbev9e9x_0\\events.out.tfevents.1737027613.Stijn.17696.1","runtime_seconds":0.2336296,"progress":"80.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.2336296,"progress":"96.0KB/143.7KB"}],"total_operations":4}}
+{"time":"2025-01-16T13:23:02.8241335+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T13:23:04.0546944+01:00","level":"INFO","msg":"stream: closing","id":"pbev9e9x"}
+{"time":"2025-01-16T13:23:04.0546944+01:00","level":"INFO","msg":"handler: closed","stream_id":"pbev9e9x"}
+{"time":"2025-01-16T13:23:04.0546944+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pbev9e9x"}
+{"time":"2025-01-16T13:23:04.0546944+01:00","level":"INFO","msg":"sender: closed","stream_id":"pbev9e9x"}
+{"time":"2025-01-16T13:23:04.0546944+01:00","level":"INFO","msg":"stream: closed","id":"pbev9e9x"}

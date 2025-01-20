@@ -1,0 +1,9 @@
+{"time":"2025-01-16T22:38:21.7219608+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_223821-o7gk3ymu\\logs\\debug-core.log"}
+{"time":"2025-01-16T22:38:22.035517+01:00","level":"INFO","msg":"created new stream","id":"o7gk3ymu"}
+{"time":"2025-01-16T22:38:22.035517+01:00","level":"INFO","msg":"stream: started","id":"o7gk3ymu"}
+{"time":"2025-01-16T22:38:22.0360447+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"o7gk3ymu"}
+{"time":"2025-01-16T22:38:22.035517+01:00","level":"INFO","msg":"handler: started","stream_id":"o7gk3ymu"}
+{"time":"2025-01-16T22:38:22.0360447+01:00","level":"INFO","msg":"sender: started","stream_id":"o7gk3ymu"}
+{"time":"2025-01-16T22:38:22.3309744+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T22:38:32.7792305+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T23:12:36.2180679+01:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/o7gk3ymu/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}

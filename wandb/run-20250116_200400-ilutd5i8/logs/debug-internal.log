@@ -1,0 +1,18 @@
+{"time":"2025-01-16T20:04:00.1536883+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_200400-ilutd5i8\\logs\\debug-core.log"}
+{"time":"2025-01-16T20:04:00.2649636+01:00","level":"INFO","msg":"created new stream","id":"ilutd5i8"}
+{"time":"2025-01-16T20:04:00.2649636+01:00","level":"INFO","msg":"stream: started","id":"ilutd5i8"}
+{"time":"2025-01-16T20:04:00.2649636+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ilutd5i8"}
+{"time":"2025-01-16T20:04:00.2649636+01:00","level":"INFO","msg":"handler: started","stream_id":"ilutd5i8"}
+{"time":"2025-01-16T20:04:00.2649636+01:00","level":"INFO","msg":"sender: started","stream_id":"ilutd5i8"}
+{"time":"2025-01-16T20:04:00.5654132+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T20:04:10.90376+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T20:09:01.1207331+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/ilutd5i8/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-01-16T20:42:14.6371446+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T20:42:14.6379098+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T20:42:15.651654+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6893271,"progress":"1.7MB/1.7MB"},{"desc":"uploading runs\\ilutd5i8\\runs\\ilutd5i8_0\\events.out.tfevents.1737054240.Stijn.6220.1","runtime_seconds":0.417232,"progress":"832.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.417232,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-16T20:42:16.1116991+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T20:42:17.3271208+01:00","level":"INFO","msg":"stream: closing","id":"ilutd5i8"}
+{"time":"2025-01-16T20:42:17.3271208+01:00","level":"INFO","msg":"handler: closed","stream_id":"ilutd5i8"}
+{"time":"2025-01-16T20:42:17.3271208+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ilutd5i8"}
+{"time":"2025-01-16T20:42:17.3271208+01:00","level":"INFO","msg":"sender: closed","stream_id":"ilutd5i8"}
+{"time":"2025-01-16T20:42:17.3271208+01:00","level":"INFO","msg":"stream: closed","id":"ilutd5i8"}

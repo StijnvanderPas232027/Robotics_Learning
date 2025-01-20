@@ -1,0 +1,17 @@
+{"time":"2025-01-15T22:27:18.3047228+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_222718-kwsgwpqj\\logs\\debug-core.log"}
+{"time":"2025-01-15T22:27:18.4134688+01:00","level":"INFO","msg":"created new stream","id":"kwsgwpqj"}
+{"time":"2025-01-15T22:27:18.4134688+01:00","level":"INFO","msg":"stream: started","id":"kwsgwpqj"}
+{"time":"2025-01-15T22:27:18.4134688+01:00","level":"INFO","msg":"handler: started","stream_id":"kwsgwpqj"}
+{"time":"2025-01-15T22:27:18.4134688+01:00","level":"INFO","msg":"sender: started","stream_id":"kwsgwpqj"}
+{"time":"2025-01-15T22:27:18.4134688+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"kwsgwpqj"}
+{"time":"2025-01-15T22:27:18.6993559+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T22:27:31.0629788+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T22:27:32.896496+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T22:27:32.8970114+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T22:27:33.9049971+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading model.zip","runtime_seconds":0.4090952,"progress":"140.1KB/140.1KB"}],"total_operations":1}}
+{"time":"2025-01-15T22:27:34.1046932+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T22:27:35.3350206+01:00","level":"INFO","msg":"stream: closing","id":"kwsgwpqj"}
+{"time":"2025-01-15T22:27:35.3350206+01:00","level":"INFO","msg":"handler: closed","stream_id":"kwsgwpqj"}
+{"time":"2025-01-15T22:27:35.3350206+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kwsgwpqj"}
+{"time":"2025-01-15T22:27:35.3355572+01:00","level":"INFO","msg":"sender: closed","stream_id":"kwsgwpqj"}
+{"time":"2025-01-15T22:27:35.3355572+01:00","level":"INFO","msg":"stream: closed","id":"kwsgwpqj"}

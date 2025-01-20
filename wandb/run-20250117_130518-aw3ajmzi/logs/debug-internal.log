@@ -1,0 +1,17 @@
+{"time":"2025-01-17T13:05:18.7642576+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_130518-aw3ajmzi\\logs\\debug-core.log"}
+{"time":"2025-01-17T13:05:18.8773991+01:00","level":"INFO","msg":"created new stream","id":"aw3ajmzi"}
+{"time":"2025-01-17T13:05:18.8773991+01:00","level":"INFO","msg":"handler: started","stream_id":"aw3ajmzi"}
+{"time":"2025-01-17T13:05:18.8773991+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"aw3ajmzi"}
+{"time":"2025-01-17T13:05:18.8773991+01:00","level":"INFO","msg":"stream: started","id":"aw3ajmzi"}
+{"time":"2025-01-17T13:05:18.8773991+01:00","level":"INFO","msg":"sender: started","stream_id":"aw3ajmzi"}
+{"time":"2025-01-17T13:05:19.122698+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T13:05:31.2904252+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T14:03:36.0614721+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T14:03:36.0622116+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T14:03:37.0724557+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6429892,"progress":"1.7MB/1.7MB"},{"desc":"uploading model.zip","runtime_seconds":0.0862516,"progress":"143.7KB/143.7KB"},{"desc":"uploading runs\\aw3ajmzi\\runs\\aw3ajmzi_0\\events.out.tfevents.1737115521.Stijn.21984.0","runtime_seconds":0.0862516,"progress":"144.0KB/1.0MB"}],"total_operations":3}}
+{"time":"2025-01-17T14:03:37.9262723+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T14:03:39.1924085+01:00","level":"INFO","msg":"stream: closing","id":"aw3ajmzi"}
+{"time":"2025-01-17T14:03:39.1924085+01:00","level":"INFO","msg":"handler: closed","stream_id":"aw3ajmzi"}
+{"time":"2025-01-17T14:03:39.1924085+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"aw3ajmzi"}
+{"time":"2025-01-17T14:03:39.1924085+01:00","level":"INFO","msg":"sender: closed","stream_id":"aw3ajmzi"}
+{"time":"2025-01-17T14:03:39.1924085+01:00","level":"INFO","msg":"stream: closed","id":"aw3ajmzi"}

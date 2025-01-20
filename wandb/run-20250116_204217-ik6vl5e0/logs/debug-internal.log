@@ -1,0 +1,17 @@
+{"time":"2025-01-16T20:42:17.3327831+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_204217-ik6vl5e0\\logs\\debug-core.log"}
+{"time":"2025-01-16T20:42:17.438939+01:00","level":"INFO","msg":"created new stream","id":"ik6vl5e0"}
+{"time":"2025-01-16T20:42:17.438939+01:00","level":"INFO","msg":"stream: started","id":"ik6vl5e0"}
+{"time":"2025-01-16T20:42:17.438939+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ik6vl5e0"}
+{"time":"2025-01-16T20:42:17.438939+01:00","level":"INFO","msg":"handler: started","stream_id":"ik6vl5e0"}
+{"time":"2025-01-16T20:42:17.438939+01:00","level":"INFO","msg":"sender: started","stream_id":"ik6vl5e0"}
+{"time":"2025-01-16T20:42:17.6743481+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T20:42:30.0230475+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T21:29:22.5228881+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T21:29:22.5236522+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T21:29:23.5325961+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6442278,"progress":"1.4MB/1.7MB"},{"desc":"uploading runs\\ik6vl5e0\\runs\\ik6vl5e0_0\\events.out.tfevents.1737056540.Stijn.6220.2","runtime_seconds":0.0347884,"progress":"16.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.0347884,"progress":"16.0KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-16T21:29:24.8450291+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T21:29:26.0597565+01:00","level":"INFO","msg":"stream: closing","id":"ik6vl5e0"}
+{"time":"2025-01-16T21:29:26.0597565+01:00","level":"INFO","msg":"handler: closed","stream_id":"ik6vl5e0"}
+{"time":"2025-01-16T21:29:26.0597565+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ik6vl5e0"}
+{"time":"2025-01-16T21:29:26.0597565+01:00","level":"INFO","msg":"sender: closed","stream_id":"ik6vl5e0"}
+{"time":"2025-01-16T21:29:26.0597565+01:00","level":"INFO","msg":"stream: closed","id":"ik6vl5e0"}

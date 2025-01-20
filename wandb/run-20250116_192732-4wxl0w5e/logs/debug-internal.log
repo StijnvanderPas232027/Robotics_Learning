@@ -1,0 +1,19 @@
+{"time":"2025-01-16T19:27:32.3314552+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_192732-4wxl0w5e\\logs\\debug-core.log"}
+{"time":"2025-01-16T19:27:32.4425647+01:00","level":"INFO","msg":"created new stream","id":"4wxl0w5e"}
+{"time":"2025-01-16T19:27:32.4425647+01:00","level":"INFO","msg":"stream: started","id":"4wxl0w5e"}
+{"time":"2025-01-16T19:27:32.4425647+01:00","level":"INFO","msg":"sender: started","stream_id":"4wxl0w5e"}
+{"time":"2025-01-16T19:27:32.4425647+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"4wxl0w5e"}
+{"time":"2025-01-16T19:27:32.4425647+01:00","level":"INFO","msg":"handler: started","stream_id":"4wxl0w5e"}
+{"time":"2025-01-16T19:27:32.7429543+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T19:27:44.8672609+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T19:52:03.2735356+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/4wxl0w5e/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-01-16T20:02:36.0710913+01:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/232027-breda-university-of-applied-sciences/RL_task11/4wxl0w5e/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-01-16T20:11:36.5153559+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T20:11:36.5158593+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T20:11:37.5174007+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.641638,"progress":"1.5MB/1.7MB"},{"desc":"uploading config.yaml","runtime_seconds":0.4596982,"progress":"3.8KB/3.8KB"},{"desc":"uploading runs\\4wxl0w5e\\runs\\4wxl0w5e_0\\events.out.tfevents.1737052054.Stijn.14392.0","runtime_seconds":0.2484316,"progress":"336.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.2484316,"progress":"143.7KB/143.7KB"}],"total_operations":4}}
+{"time":"2025-01-16T20:11:38.4212554+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T20:11:39.6903931+01:00","level":"INFO","msg":"stream: closing","id":"4wxl0w5e"}
+{"time":"2025-01-16T20:11:39.6903931+01:00","level":"INFO","msg":"handler: closed","stream_id":"4wxl0w5e"}
+{"time":"2025-01-16T20:11:39.6903931+01:00","level":"INFO","msg":"sender: closed","stream_id":"4wxl0w5e"}
+{"time":"2025-01-16T20:11:39.6903931+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4wxl0w5e"}
+{"time":"2025-01-16T20:11:39.6903931+01:00","level":"INFO","msg":"stream: closed","id":"4wxl0w5e"}

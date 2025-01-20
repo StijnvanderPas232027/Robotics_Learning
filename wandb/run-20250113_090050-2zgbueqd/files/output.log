@@ -1,0 +1,1184 @@
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+Starting learn iteration 1
+Observation: {'robotId_2': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895, 0.1195]}}
+Logging to runs/2zgbueqd\runs/2zgbueqd_0
+[2KObservation: {'robotId_9': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0, [33m0:00:00[0m < [36m0:26:47[0m , [31m1,867 it/s[0m ]
+0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0,
+0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0,
+0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_57': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, m [ [33m0:00:01[0m < [36m0:32:50[0m , [31m1,522 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K---------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1,930/3,000,000 [0m [ [33m0:00:01[0m < [36m0:32:50[0m , [31m1,522 it/s[0m ]
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | -238     |
+| time/              |          |
+|    fps             | 1426     |
+|    iterations      | 1        |
+|    time_elapsed    | 1        |
+|    total_timesteps | 2048     |
+---------------------------------
+[2KObservation: {'robotId_48': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, m [ [33m0:00:02[0m < [36m0:39:33[0m , [31m1,264 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_35': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, m [ [33m0:00:03[0m < [36m0:42:00[0m , [31m1,189 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3,986/3,000,000 [0m [ [33m0:00:03[0m < [36m0:42:16[0m , [31m1,182 it/s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -232         |
+| time/                   |              |
+|    fps                  | 1176         |
+|    iterations           | 2            |
+|    time_elapsed         | 3            |
+|    total_timesteps      | 4096         |
+| train/                  |              |
+|    approx_kl            | 5.537324e-06 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -5.68        |
+|    explained_variance   | -0.00225     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 7.87         |
+|    n_updates            | 1            |
+|    policy_gradient_loss | -2.95e-05    |
+|    std                  | 1            |
+|    value_loss           | 15.6         |
+------------------------------------------
+[2KObservation: {'robotId_37': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, m [ [33m0:00:04[0m < [36m0:44:29[0m , [31m1,123 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_2': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0, [33m0:00:05[0m < [36m0:45:20[0m , [31m1,101 it/s[0m ]
+0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0,
+0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0.0,
+0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6,025/3,000,000 [0m [ [33m0:00:05[0m < [36m0:45:38[0m , [31m1,094 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -252          |
+| time/                   |               |
+|    fps                  | 1093          |
+|    iterations           | 3             |
+|    time_elapsed         | 5             |
+|    total_timesteps      | 6144          |
+| train/                  |               |
+|    approx_kl            | 1.2646487e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | 0.0302        |
+|    learning_rate        | 0.0001        |
+|    loss                 | 7.21          |
+|    n_updates            | 2             |
+|    policy_gradient_loss | 3.39e-05      |
+|    std                  | 1             |
+|    value_loss           | 13.9          |
+-------------------------------------------
+[2KObservation: {'robotId_37': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, m [ [33m0:00:06[0m < [36m0:46:59[0m , [31m1,062 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_59': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, m [ [33m0:00:07[0m < [36m0:48:04[0m , [31m1,038 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,116/3,000,000 [0m [ [33m0:00:07[0m < [36m0:48:36[0m , [31m1,026 it/s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -275         |
+| time/                   |              |
+|    fps                  | 1027         |
+|    iterations           | 4            |
+|    time_elapsed         | 7            |
+|    total_timesteps      | 8192         |
+| train/                  |              |
+|    approx_kl            | 9.588548e-07 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -5.68        |
+|    explained_variance   | 0.00158      |
+|    learning_rate        | 0.0001       |
+|    loss                 | 11.3         |
+|    n_updates            | 3            |
+|    policy_gradient_loss | -2.66e-05    |
+|    std                  | 1            |
+|    value_loss           | 23.2         |
+------------------------------------------
+[2KObservation: {'robotId_60': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, [0m [ [33m0:00:08[0m < [36m0:49:56[0m , [31m999 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_65': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, [0m [ [33m0:00:10[0m < [36m0:50:56[0m , [31m979 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10,144/3,000,000 [0m [ [33m0:00:10[0m < [36m0:51:15[0m , [31m972 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -243          |
+| time/                   |               |
+|    fps                  | 973           |
+|    iterations           | 5             |
+|    time_elapsed         | 10            |
+|    total_timesteps      | 10240         |
+| train/                  |               |
+|    approx_kl            | 1.1481752e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | -0.00625      |
+|    learning_rate        | 0.0001        |
+|    loss                 | 14.4          |
+|    n_updates            | 4             |
+|    policy_gradient_loss | 1.66e-06      |
+|    std                  | 1             |
+|    value_loss           | 32.1          |
+-------------------------------------------
+[2KObservation: {'robotId_94': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, [0m [ [33m0:00:11[0m < [36m0:53:43[0m , [31m928 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_71': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, [0m [ [33m0:00:13[0m < [36m0:57:07[0m , [31m872 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12,251/3,000,000 [0m [ [33m0:00:14[0m < [36m0:58:14[0m , [31m855 it/s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -234         |
+| time/                   |              |
+|    fps                  | 857          |
+|    iterations           | 6            |
+|    time_elapsed         | 14           |
+|    total_timesteps      | 12288        |
+| train/                  |              |
+|    approx_kl            | 9.606592e-07 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -5.68        |
+|    explained_variance   | -0.00982     |
+|    learning_rate        | 0.0001       |
+|    loss                 | 2.29         |
+|    n_updates            | 5            |
+|    policy_gradient_loss | -4.15e-06    |
+|    std                  | 1            |
+|    value_loss           | 4.15         |
+------------------------------------------
+[2KObservation: {'robotId_104': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0m [ [33m0:00:15[0m < [36m0:59:55[0m , [31m831 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_75': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, [0m [ [33m0:00:48[0m < [36m16:12:47[0m , [31m51 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m14,297/3,000,000 [0m [ [33m0:00:49[0m < [36m12:33:54[0m , [31m66 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -226          |
+| time/                   |               |
+|    fps                  | 289           |
+|    iterations           | 7             |
+|    time_elapsed         | 49            |
+|    total_timesteps      | 14336         |
+| train/                  |               |
+|    approx_kl            | 6.7896326e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | -0.0085       |
+|    learning_rate        | 0.0001        |
+|    loss                 | 5.68          |
+|    n_updates            | 6             |
+|    policy_gradient_loss | 1.69e-05      |
+|    std                  | 1             |
+|    value_loss           | 10.6          |
+-------------------------------------------
+[2KObservation: {'robotId_65': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, [0m [ [33m0:00:50[0m < [36m8:51:35[0m , [31m94 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_83': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, [0m [ [33m0:00:52[0m < [36m6:18:24[0m , [31m131 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m16,330/3,000,000 [0m [ [33m0:00:53[0m < [36m5:49:38[0m , [31m142 it/s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -225         |
+| time/                   |              |
+|    fps                  | 306          |
+|    iterations           | 8            |
+|    time_elapsed         | 53           |
+|    total_timesteps      | 16384        |
+| train/                  |              |
+|    approx_kl            | 5.127513e-07 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -5.68        |
+|    explained_variance   | -0.0155      |
+|    learning_rate        | 0.0001       |
+|    loss                 | 4.26         |
+|    n_updates            | 7            |
+|    policy_gradient_loss | 4.76e-05     |
+|    std                  | 1            |
+|    value_loss           | 8.1          |
+------------------------------------------
+[2KObservation: {'robotId_99': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, [0m [ [33m0:00:54[0m < [36m5:09:45[0m , [31m161 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_135': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0m [ [33m0:00:56[0m < [36m4:28:03[0m , [31m185 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m18,406/3,000,000 [0m [ [33m0:00:57[0m < [36m4:16:05[0m , [31m194 it/s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -221         |
+| time/                   |              |
+|    fps                  | 318          |
+|    iterations           | 9            |
+|    time_elapsed         | 57           |
+|    total_timesteps      | 18432        |
+| train/                  |              |
+|    approx_kl            | 9.584764e-07 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -5.68        |
+|    explained_variance   | 0.129        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 7.29         |
+|    n_updates            | 8            |
+|    policy_gradient_loss | 8.03e-06     |
+|    std                  | 1            |
+|    value_loss           | 13           |
+------------------------------------------
+[2KObservation: {'robotId_121': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0m [ [33m0:00:59[0m < [36m4:02:42[0m , [31m205 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_133': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0m [ [33m0:01:01[0m < [36m1:43:09[0m , [31m482 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m20,436/3,000,000 [0m [ [33m0:01:02[0m < [36m1:43:36[0m , [31m479 it/s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -213         |
+| time/                   |              |
+|    fps                  | 327          |
+|    iterations           | 10           |
+|    time_elapsed         | 62           |
+|    total_timesteps      | 20480        |
+| train/                  |              |
+|    approx_kl            | 9.685173e-07 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -5.68        |
+|    explained_variance   | 0.1          |
+|    learning_rate        | 0.0001       |
+|    loss                 | 4.47         |
+|    n_updates            | 9            |
+|    policy_gradient_loss | -7.46e-06    |
+|    std                  | 1            |
+|    value_loss           | 8.97         |
+------------------------------------------
+[2KObservation: {'robotId_157': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0m [ [33m0:01:04[0m < [36m1:45:34[0m , [31m470 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_149': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0m [ [33m0:01:06[0m < [36m1:47:49[0m , [31m460 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m22,477/3,000,000 [0m [ [33m0:01:07[0m < [36m1:49:08[0m , [31m455 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -215          |
+| time/                   |               |
+|    fps                  | 331           |
+|    iterations           | 11            |
+|    time_elapsed         | 68            |
+|    total_timesteps      | 22528         |
+| train/                  |               |
+|    approx_kl            | 1.2651726e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | 0.00666       |
+|    learning_rate        | 0.0001        |
+|    loss                 | 3.07          |
+|    n_updates            | 10            |
+|    policy_gradient_loss | -1.77e-05     |
+|    std                  | 1             |
+|    value_loss           | 5.91          |
+-------------------------------------------
+[2KObservation: {'robotId_121': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 0m [ [33m0:01:09[0m < [36m1:52:43[0m , [31m440 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_153': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m24,007/3,000,000 [0m [ [33m0:01:12[0m < [36m1:55:54[0m , [31m428 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m24,537/3,000,000 [0m [ [33m0:01:14[0m < [36m1:57:12[0m , [31m423 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -217          |
+| time/                   |               |
+|    fps                  | 330           |
+|    iterations           | 12            |
+|    time_elapsed         | 74            |
+|    total_timesteps      | 24576         |
+| train/                  |               |
+|    approx_kl            | 2.6017078e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | -0.0149       |
+|    learning_rate        | 0.0001        |
+|    loss                 | 8.81          |
+|    n_updates            | 11            |
+|    policy_gradient_loss | 4.34e-05      |
+|    std                  | 1             |
+|    value_loss           | 17.6          |
+-------------------------------------------
+[2KObservation: {'robotId_139': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m24,967/3,000,000 [0m [ [33m0:01:15[0m < [36m1:58:17[0m , [31m419 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_164': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m26,000/3,000,000 [0m [ [33m0:01:18[0m < [36m2:01:54[0m , [31m407 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m26,598/3,000,000 [0m [ [33m0:01:20[0m < [36m2:05:37[0m , [31m395 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -216          |
+| time/                   |               |
+|    fps                  | 330           |
+|    iterations           | 13            |
+|    time_elapsed         | 80            |
+|    total_timesteps      | 26624         |
+| train/                  |               |
+|    approx_kl            | 5.3536496e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | -0.00816      |
+|    learning_rate        | 0.0001        |
+|    loss                 | 5.32          |
+|    n_updates            | 12            |
+|    policy_gradient_loss | 1.95e-05      |
+|    std                  | 1             |
+|    value_loss           | 11.2          |
+-------------------------------------------
+[2KObservation: {'robotId_153': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m27,015/3,000,000 [0m [ [33m0:01:21[0m < [36m2:08:31[0m , [31m386 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_164': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m27,991/3,000,000 [0m [ [33m0:01:24[0m < [36m2:16:18[0m , [31m363 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m28,632/3,000,000 [0m [ [33m0:01:26[0m < [36m2:18:39[0m , [31m357 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -219          |
+| time/                   |               |
+|    fps                  | 330           |
+|    iterations           | 14            |
+|    time_elapsed         | 86            |
+|    total_timesteps      | 28672         |
+| train/                  |               |
+|    approx_kl            | 8.7334774e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | 0.0804        |
+|    learning_rate        | 0.0001        |
+|    loss                 | 5.67          |
+|    n_updates            | 13            |
+|    policy_gradient_loss | 2.63e-05      |
+|    std                  | 1             |
+|    value_loss           | 12.1          |
+-------------------------------------------
+[2KObservation: {'robotId_177': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m28,995/3,000,000 [0m [ [33m0:01:28[0m < [36m2:21:09[0m , [31m351 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_175': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m29,998/3,000,000 [0m [ [33m0:01:31[0m < [36m2:25:55[0m , [31m339 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m30,696/3,000,000 [0m [ [33m0:01:33[0m < [36m2:30:10[0m , [31m330 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -215          |
+| time/                   |               |
+|    fps                  | 328           |
+|    iterations           | 15            |
+|    time_elapsed         | 93            |
+|    total_timesteps      | 30720         |
+| train/                  |               |
+|    approx_kl            | 7.2378316e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | -0.00254      |
+|    learning_rate        | 0.0001        |
+|    loss                 | 6.24          |
+|    n_updates            | 14            |
+|    policy_gradient_loss | 2.3e-06       |
+|    std                  | 1             |
+|    value_loss           | 13.9          |
+-------------------------------------------
+[2KObservation: {'robotId_188': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m30,983/3,000,000 [0m [ [33m0:01:34[0m < [36m2:31:03[0m , [31m328 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_177': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m31,986/3,000,000 [0m [ [33m0:01:37[0m < [36m2:34:10[0m , [31m321 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m32,724/3,000,000 [0m [ [33m0:01:39[0m < [36m2:32:48[0m , [31m324 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -211          |
+| time/                   |               |
+|    fps                  | 327           |
+|    iterations           | 16            |
+|    time_elapsed         | 99            |
+|    total_timesteps      | 32768         |
+| train/                  |               |
+|    approx_kl            | 1.3891549e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | 0.163         |
+|    learning_rate        | 0.0001        |
+|    loss                 | 3.44          |
+|    n_updates            | 15            |
+|    policy_gradient_loss | 4.48e-05      |
+|    std                  | 1             |
+|    value_loss           | 6.72          |
+-------------------------------------------
+[2KObservation: {'robotId_192': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m32,986/3,000,000 [0m [ [33m0:01:40[0m < [36m2:33:32[0m , [31m322 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_180': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m34,028/3,000,000 [0m [ [33m0:01:43[0m < [36m2:34:07[0m , [31m321 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m34,803/3,000,000 [0m [ [33m0:01:47[0m < [36m2:38:42[0m , [31m311 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -208          |
+| time/                   |               |
+|    fps                  | 325           |
+|    iterations           | 17            |
+|    time_elapsed         | 107           |
+|    total_timesteps      | 34816         |
+| train/                  |               |
+|    approx_kl            | 8.8696834e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | 0.166         |
+|    learning_rate        | 0.0001        |
+|    loss                 | 2.65          |
+|    n_updates            | 16            |
+|    policy_gradient_loss | 2.39e-05      |
+|    std                  | 1             |
+|    value_loss           | 6.03          |
+-------------------------------------------
+[2KObservation: {'robotId_219': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m35,018/3,000,000 [0m [ [33m0:01:48[0m < [36m2:41:05[0m , [31m307 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_198': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m36,014/3,000,000 [0m [ [33m0:01:52[0m < [36m2:46:05[0m , [31m297 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m36,836/3,000,000 [0m [ [33m0:01:54[0m < [36m2:48:03[0m , [31m294 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -201          |
+| time/                   |               |
+|    fps                  | 320           |
+|    iterations           | 18            |
+|    time_elapsed         | 115           |
+|    total_timesteps      | 36864         |
+| train/                  |               |
+|    approx_kl            | 2.7734495e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | 0.0235        |
+|    learning_rate        | 0.0001        |
+|    loss                 | 2.9           |
+|    n_updates            | 17            |
+|    policy_gradient_loss | -6.97e-05     |
+|    std                  | 1             |
+|    value_loss           | 5.88          |
+-------------------------------------------
+[2KObservation: {'robotId_208': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m36,985/3,000,000 [0m [ [33m0:01:55[0m < [36m2:49:10[0m , [31m292 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_180': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m37,992/3,000,000 [0m [ [33m0:01:59[0m < [36m2:51:39[0m , [31m288 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m38,862/3,000,000 [0m [ [33m0:02:02[0m < [36m2:53:43[0m , [31m284 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -198          |
+| time/                   |               |
+|    fps                  | 317           |
+|    iterations           | 19            |
+|    time_elapsed         | 122           |
+|    total_timesteps      | 38912         |
+| train/                  |               |
+|    approx_kl            | 5.8817095e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | 0.184         |
+|    learning_rate        | 0.0001        |
+|    loss                 | 1.56          |
+|    n_updates            | 18            |
+|    policy_gradient_loss | 6.74e-05      |
+|    std                  | 1             |
+|    value_loss           | 2.99          |
+-------------------------------------------
+[2KObservation: {'robotId_185': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m39,002/3,000,000 [0m [ [33m0:02:02[0m < [36m2:54:41[0m , [31m283 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_212': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m40,009/3,000,000 [0m [ [33m0:02:06[0m < [36m2:58:02[0m , [31m277 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K------------------------------------------;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m40,937/3,000,000 [0m [ [33m0:02:10[0m < [36m3:01:24[0m , [31m272 it/s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -195         |
+| time/                   |              |
+|    fps                  | 314          |
+|    iterations           | 20           |
+|    time_elapsed         | 130          |
+|    total_timesteps      | 40960        |
+| train/                  |              |
+|    approx_kl            | 9.680807e-07 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -5.68        |
+|    explained_variance   | -0.137       |
+|    learning_rate        | 0.0001       |
+|    loss                 | 1.89         |
+|    n_updates            | 19           |
+|    policy_gradient_loss | 2.14e-05     |
+|    std                  | 1            |
+|    value_loss           | 3.99         |
+------------------------------------------
+[2KObservation: {'robotId_213': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m41,025/3,000,000 [0m [ [33m0:02:10[0m < [36m3:02:10[0m , [31m271 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_232': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m42,036/3,000,000 [0m [ [33m0:02:14[0m < [36m3:11:17[0m , [31m258 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m42,988/3,000,000 [0m [ [33m0:02:19[0m < [36m3:13:56[0m , [31m254 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -195          |
+| time/                   |               |
+|    fps                  | 308           |
+|    iterations           | 21            |
+|    time_elapsed         | 139           |
+|    total_timesteps      | 43008         |
+| train/                  |               |
+|    approx_kl            | 2.0682928e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.67         |
+|    explained_variance   | -0.0994       |
+|    learning_rate        | 0.0001        |
+|    loss                 | 3.41          |
+|    n_updates            | 20            |
+|    policy_gradient_loss | -3.4e-05      |
+|    std                  | 1             |
+|    value_loss           | 7.23          |
+-------------------------------------------
+[2KObservation: {'robotId_242': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m43,012/3,000,000 [0m [ [33m0:02:19[0m < [36m3:14:19[0m , [31m254 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_232': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m44,030/3,000,000 [0m [ [33m0:02:23[0m < [36m3:17:29[0m , [31m249 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_254': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m45,031/3,000,000 [0m [ [33m0:02:28[0m < [36m3:27:16[0m , [31m238 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------7m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m45,031/3,000,000 [0m [ [33m0:02:28[0m < [36m3:27:16[0m , [31m238 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -196          |
+| time/                   |               |
+|    fps                  | 302           |
+|    iterations           | 22            |
+|    time_elapsed         | 148           |
+|    total_timesteps      | 45056         |
+| train/                  |               |
+|    approx_kl            | 1.1958764e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.67         |
+|    explained_variance   | -0.0969       |
+|    learning_rate        | 0.0001        |
+|    loss                 | 2.59          |
+|    n_updates            | 21            |
+|    policy_gradient_loss | 3.64e-05      |
+|    std                  | 1             |
+|    value_loss           | 5.27          |
+-------------------------------------------
+[2KObservation: {'robotId_255': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m46,018/3,000,000 [0m [ [33m0:02:33[0m < [36m3:36:18[0m , [31m228 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_273': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, 32m47,045/3,000,000 [0m [ [33m0:02:41[0m < [36m4:18:05[0m , [31m191 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K------------------------------------------;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m47,086/3,000,000 [0m [ [33m0:02:41[0m < [36m4:20:03[0m , [31m189 it/s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -198         |
+| time/                   |              |
+|    fps                  | 290          |
+|    iterations           | 23           |
+|    time_elapsed         | 161          |
+|    total_timesteps      | 47104        |
+| train/                  |              |
+|    approx_kl            | 3.160385e-07 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -5.67        |
+|    explained_variance   | 0.201        |
+|    learning_rate        | 0.0001       |
+|    loss                 | 7.65         |
+|    n_updates            | 22           |
+|    policy_gradient_loss | -7.57e-06    |
+|    std                  | 1            |
+|    value_loss           | 14.8         |
+------------------------------------------
+[2KObservation: {'robotId_293': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m48,030/3,000,000 [0m [ [33m0:02:47[0m < [36m4:34:00[0m , [31m180 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_263': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m49,034/3,000,000 [0m [ [33m0:02:53[0m < [36m4:51:59[0m , [31m168 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m49,133/3,000,000 [0m [ [33m0:02:54[0m < [36m4:56:36[0m , [31m166 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -202          |
+| time/                   |               |
+|    fps                  | 281           |
+|    iterations           | 24            |
+|    time_elapsed         | 174           |
+|    total_timesteps      | 49152         |
+| train/                  |               |
+|    approx_kl            | 2.2296445e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.67         |
+|    explained_variance   | 0.125         |
+|    learning_rate        | 0.0001        |
+|    loss                 | 7.18          |
+|    n_updates            | 23            |
+|    policy_gradient_loss | -1.17e-05     |
+|    std                  | 1             |
+|    value_loss           | 15.6          |
+-------------------------------------------
+[2KObservation: {'robotId_270': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m50,019/3,000,000 [0m [ [33m0:02:59[0m < [36m5:07:58[0m , [31m160 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_310': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m51,036/3,000,000 [0m [ [33m0:03:08[0m < [36m5:42:31[0m , [31m144 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m51,188/3,000,000 [0m [ [33m0:03:09[0m < [36m5:38:35[0m , [31m145 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -209          |
+| time/                   |               |
+|    fps                  | 270           |
+|    iterations           | 25            |
+|    time_elapsed         | 189           |
+|    total_timesteps      | 51200         |
+| train/                  |               |
+|    approx_kl            | 3.1359377e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.67         |
+|    explained_variance   | -0.0725       |
+|    learning_rate        | 0.0001        |
+|    loss                 | 10.1          |
+|    n_updates            | 24            |
+|    policy_gradient_loss | 1.45e-05      |
+|    std                  | 1             |
+|    value_loss           | 20.2          |
+-------------------------------------------
+[2KObservation: {'robotId_258': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m52,014/3,000,000 [0m [ [33m0:03:14[0m < [36m5:20:37[0m , [31m153 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_285': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m53,018/3,000,000 [0m [ [33m0:03:20[0m < [36m5:19:58[0m , [31m154 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m53,230/3,000,000 [0m [ [33m0:03:21[0m < [36m5:22:03[0m , [31m153 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -208          |
+| time/                   |               |
+|    fps                  | 264           |
+|    iterations           | 26            |
+|    time_elapsed         | 201           |
+|    total_timesteps      | 53248         |
+| train/                  |               |
+|    approx_kl            | 1.3387762e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.67         |
+|    explained_variance   | 0.123         |
+|    learning_rate        | 0.0001        |
+|    loss                 | 17.7          |
+|    n_updates            | 25            |
+|    policy_gradient_loss | -1.02e-05     |
+|    std                  | 1             |
+|    value_loss           | 35.6          |
+-------------------------------------------
+[2KObservation: {'robotId_311': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m54,043/3,000,000 [0m [ [33m0:03:26[0m < [36m5:17:19[0m , [31m155 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_270': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m55,031/3,000,000 [0m [ [33m0:03:32[0m < [36m5:14:53[0m , [31m156 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m55,294/3,000,000 [0m [ [33m0:03:33[0m < [36m5:09:03[0m , [31m159 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -209          |
+| time/                   |               |
+|    fps                  | 258           |
+|    iterations           | 27            |
+|    time_elapsed         | 213           |
+|    total_timesteps      | 55296         |
+| train/                  |               |
+|    approx_kl            | 2.0724838e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.67         |
+|    explained_variance   | 0.317         |
+|    learning_rate        | 0.0001        |
+|    loss                 | 3.14          |
+|    n_updates            | 26            |
+|    policy_gradient_loss | 3.88e-06      |
+|    std                  | 1             |
+|    value_loss           | 6.74          |
+-------------------------------------------
+[2KObservation: {'robotId_332': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m56,040/3,000,000 [0m [ [33m0:03:39[0m < [36m5:07:17[0m , [31m160 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_322': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m57,050/3,000,000 [0m [ [33m0:03:46[0m < [36m5:18:34[0m , [31m154 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K------------------------------------------;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m57,322/3,000,000 [0m [ [33m0:03:48[0m < [36m5:21:06[0m , [31m153 it/s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -208         |
+| time/                   |              |
+|    fps                  | 250          |
+|    iterations           | 28           |
+|    time_elapsed         | 228          |
+|    total_timesteps      | 57344        |
+| train/                  |              |
+|    approx_kl            | 9.270443e-07 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -5.67        |
+|    explained_variance   | 0.16         |
+|    learning_rate        | 0.0001       |
+|    loss                 | 4.5          |
+|    n_updates            | 27           |
+|    policy_gradient_loss | 1.42e-05     |
+|    std                  | 1            |
+|    value_loss           | 9.56         |
+------------------------------------------
+[2KObservation: {'robotId_313': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m58,051/3,000,000 [0m [ [33m0:03:53[0m < [36m5:26:17[0m , [31m150 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_357': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m59,052/3,000,000 [0m [ [33m0:04:02[0m < [36m6:18:48[0m , [31m129 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m59,374/3,000,000 [0m [ [33m0:04:05[0m < [36m6:23:43[0m , [31m128 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -209          |
+| time/                   |               |
+|    fps                  | 242           |
+|    iterations           | 29            |
+|    time_elapsed         | 245           |
+|    total_timesteps      | 59392         |
+| train/                  |               |
+|    approx_kl            | 8.4229396e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.67         |
+|    explained_variance   | -0.00171      |
+|    learning_rate        | 0.0001        |
+|    loss                 | 3.38          |
+|    n_updates            | 28            |
+|    policy_gradient_loss | -1.55e-05     |
+|    std                  | 1             |
+|    value_loss           | 7.53          |
+-------------------------------------------
+[2KObservation: {'robotId_340': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m60,046/3,000,000 [0m [ [33m0:04:10[0m < [36m6:11:39[0m , [31m132 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_322': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m61,042/3,000,000 [0m [ [33m0:04:17[0m < [36m6:25:54[0m , [31m127 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K----------------------------------------38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m61,431/3,000,000 [0m [ [33m0:04:20[0m < [36m6:29:13[0m , [31m126 it/s[0m ]
+| rollout/                |            |
+|    ep_len_mean          | 1e+03      |
+|    ep_rew_mean          | -209       |
+| time/                   |            |
+|    fps                  | 235        |
+|    iterations           | 30         |
+|    time_elapsed         | 260        |
+|    total_timesteps      | 61440      |
+| train/                  |            |
+|    approx_kl            | 2.1499e-07 |
+|    clip_fraction        | 0          |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -5.67      |
+|    explained_variance   | 0.0124     |
+|    learning_rate        | 0.0001     |
+|    loss                 | 5.24       |
+|    n_updates            | 29         |
+|    policy_gradient_loss | -5.29e-06  |
+|    std                  | 1          |
+|    value_loss           | 11.5       |
+----------------------------------------
+[2KObservation: {'robotId_356': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m62,045/3,000,000 [0m [ [33m0:04:25[0m < [36m6:39:26[0m , [31m123 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_343': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m63,046/3,000,000 [0m [ [33m0:04:32[0m < [36m6:07:41[0m , [31m133 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m63,482/3,000,000 [0m [ [33m0:04:36[0m < [36m6:10:35[0m , [31m132 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -210          |
+| time/                   |               |
+|    fps                  | 229           |
+|    iterations           | 31            |
+|    time_elapsed         | 276           |
+|    total_timesteps      | 63488         |
+| train/                  |               |
+|    approx_kl            | 8.2398765e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.67         |
+|    explained_variance   | 0.162         |
+|    learning_rate        | 0.0001        |
+|    loss                 | 3.5           |
+|    n_updates            | 30            |
+|    policy_gradient_loss | -2.97e-05     |
+|    std                  | 1             |
+|    value_loss           | 7.72          |
+-------------------------------------------
+[2KObservation: {'robotId_366': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m64,052/3,000,000 [0m [ [33m0:04:42[0m < [36m6:37:38[0m , [31m123 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_320': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m65,054/3,000,000 [0m [ [33m0:04:50[0m < [36m6:37:37[0m , [31m123 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m65,527/3,000,000 [0m [ [33m0:04:54[0m < [36m6:41:53[0m , [31m122 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -211          |
+| time/                   |               |
+|    fps                  | 222           |
+|    iterations           | 32            |
+|    time_elapsed         | 294           |
+|    total_timesteps      | 65536         |
+| train/                  |               |
+|    approx_kl            | 2.5046756e-07 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.67         |
+|    explained_variance   | -0.492        |
+|    learning_rate        | 0.0001        |
+|    loss                 | 7.92          |
+|    n_updates            | 31            |
+|    policy_gradient_loss | 3.15e-06      |
+|    std                  | 1             |
+|    value_loss           | 15.9          |
+-------------------------------------------
+[2KObservation: {'robotId_360': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m66,060/3,000,000 [0m [ [33m0:04:58[0m < [36m6:47:11[0m , [31m120 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_363': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m67,062/3,000,000 [0m [ [33m0:05:06[0m < [36m6:48:38[0m , [31m120 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m67,572/3,000,000 [0m [ [33m0:05:12[0m < [36m6:53:00[0m , [31m118 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -211          |
+| time/                   |               |
+|    fps                  | 216           |
+|    iterations           | 33            |
+|    time_elapsed         | 312           |
+|    total_timesteps      | 67584         |
+| train/                  |               |
+|    approx_kl            | 1.2311502e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.67         |
+|    explained_variance   | -0.0759       |
+|    learning_rate        | 0.0001        |
+|    loss                 | 3.38          |
+|    n_updates            | 32            |
+|    policy_gradient_loss | -3.51e-05     |
+|    std                  | 1             |
+|    value_loss           | 6.87          |
+-------------------------------------------
+[2KObservation: {'robotId_394': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━[0m [32m68,060/3,000,000 [0m [ [33m0:05:19[0m < [36m8:02:05[0m , [31m101 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_388': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━━[0m [32m69,057/3,000,000 [0m [ [33m0:05:29[0m < [36m8:16:52[0m , [31m98 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m69,621/3,000,000 [0m [ [33m0:05:35[0m < [36m8:56:41[0m , [31m91 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -209          |
+| time/                   |               |
+|    fps                  | 207           |
+|    iterations           | 34            |
+|    time_elapsed         | 335           |
+|    total_timesteps      | 69632         |
+| train/                  |               |
+|    approx_kl            | 1.1975062e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | -0.0833       |
+|    learning_rate        | 0.0001        |
+|    loss                 | 4.03          |
+|    n_updates            | 33            |
+|    policy_gradient_loss | -5.33e-05     |
+|    std                  | 1             |
+|    value_loss           | 9.02          |
+-------------------------------------------
+[2KObservation: {'robotId_413': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━━[0m [32m70,063/3,000,000 [0m [ [33m0:05:42[0m < [36m9:53:20[0m , [31m82 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_414': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━━━━━━━━━[0m [32m71,060/3,000,000 [0m [ [33m0:05:51[0m < [36m8:44:47[0m , [31m93 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m71,662/3,000,000 [0m [ [33m0:05:58[0m < [36m8:57:49[0m , [31m91 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -206          |
+| time/                   |               |
+|    fps                  | 200           |
+|    iterations           | 35            |
+|    time_elapsed         | 358           |
+|    total_timesteps      | 71680         |
+| train/                  |               |
+|    approx_kl            | 1.7545535e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.67         |
+|    explained_variance   | -0.42         |
+|    learning_rate        | 0.0001        |
+|    loss                 | 0.933         |
+|    n_updates            | 34            |
+|    policy_gradient_loss | -2.51e-05     |
+|    std                  | 1             |
+|    value_loss           | 1.98          |
+-------------------------------------------
+[2KObservation: {'robotId_383': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━━━━━━━━━[0m [32m72,067/3,000,000 [0m [ [33m0:06:03[0m < [36m9:16:59[0m , [31m88 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_407': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━━━━━━━━[0m [32m73,056/3,000,000 [0m [ [33m0:06:12[0m < [36m8:06:46[0m , [31m100 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K------------------------------------------;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m73,727/3,000,000 [0m [ [33m0:06:20[0m < [36m8:37:41[0m , [31m94 it/s[0m ]
+| rollout/                |              |
+|    ep_len_mean          | 1e+03        |
+|    ep_rew_mean          | -206         |
+| time/                   |              |
+|    fps                  | 193          |
+|    iterations           | 36           |
+|    time_elapsed         | 380          |
+|    total_timesteps      | 73728        |
+| train/                  |              |
+|    approx_kl            | 4.665839e-06 |
+|    clip_fraction        | 0            |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -5.67        |
+|    explained_variance   | -0.401       |
+|    learning_rate        | 0.0001       |
+|    loss                 | 0.939        |
+|    n_updates            | 35           |
+|    policy_gradient_loss | -3.34e-05    |
+|    std                  | 1            |
+|    value_loss           | 2.01         |
+------------------------------------------
+[2KObservation: {'robotId_440': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━━━━━━━━━[0m [32m74,061/3,000,000 [0m [ [33m0:06:25[0m < [36m9:24:55[0m , [31m86 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2KObservation: {'robotId_427': {'joint_states': {'joint_0': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0, ━━━━━━━━━━━━━━━━[0m [32m75,062/3,000,000 [0m [ [33m0:06:36[0m < [36m9:10:08[0m , [31m89 it/s[0m ]
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_1': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}, 'joint_2': {'position': 0.0, 'velocity': 0.0, 'reaction_forces': (0.0,
+0.0, 0.0, 0.0, 0.0, 0.0), 'motor_torque': 0.0}}, 'robot_position': [0.0, 0.0, 0.03], 'pipette_position': [0.073, 0.0895,
+0.1195]}}
+[2K-------------------------------------------2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m75,769/3,000,000 [0m [ [33m0:06:47[0m < [36m10:46:21[0m , [31m75 it/s[0m ]
+| rollout/                |               |
+|    ep_len_mean          | 1e+03         |
+|    ep_rew_mean          | -207          |
+| time/                   |               |
+|    fps                  | 186           |
+|    iterations           | 37            |
+|    time_elapsed         | 407           |
+|    total_timesteps      | 75776         |
+| train/                  |               |
+|    approx_kl            | 1.4968973e-06 |
+|    clip_fraction        | 0             |
+|    clip_range           | 0.2           |
+|    entropy_loss         | -5.68         |
+|    explained_variance   | 0.0824        |
+|    learning_rate        | 0.0001        |
+|    loss                 | 6.07          |
+|    n_updates            | 36            |
+|    policy_gradient_loss | -2.21e-06     |
+|    std                  | 1             |
+|    value_loss           | 13            |
+-------------------------------------------
+[2K[35m   3%[0m [38;2;249;38;114m━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m76,033/3,000,000 [0m [ [33m0:06:52[0m < [36m11:09:12[0m , [31m73 it/s[0m ]

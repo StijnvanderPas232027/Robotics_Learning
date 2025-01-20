@@ -1,0 +1,17 @@
+{"time":"2025-01-15T22:34:14.1783571+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_223413-gxnmdttw\\logs\\debug-core.log"}
+{"time":"2025-01-15T22:34:14.2894049+01:00","level":"INFO","msg":"created new stream","id":"gxnmdttw"}
+{"time":"2025-01-15T22:34:14.2901504+01:00","level":"INFO","msg":"handler: started","stream_id":"gxnmdttw"}
+{"time":"2025-01-15T22:34:14.2901504+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"gxnmdttw"}
+{"time":"2025-01-15T22:34:14.2901504+01:00","level":"INFO","msg":"stream: started","id":"gxnmdttw"}
+{"time":"2025-01-15T22:34:14.2901504+01:00","level":"INFO","msg":"sender: started","stream_id":"gxnmdttw"}
+{"time":"2025-01-15T22:34:14.7335074+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T22:34:26.7635447+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T23:33:31.4091657+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T23:33:31.4097068+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T23:33:32.4188285+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6619529,"progress":"1.6MB/1.7MB"},{"desc":"uploading model.zip","runtime_seconds":0.1826156,"progress":"143.7KB/143.7KB"},{"desc":"uploading runs\\gxnmdttw\\runs\\gxnmdttw_0\\events.out.tfevents.1736976856.Stijn.26984.0","runtime_seconds":0.1826156,"progress":"192.0KB/1.0MB"}],"total_operations":3}}
+{"time":"2025-01-15T23:33:33.20293+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T23:33:34.4573837+01:00","level":"INFO","msg":"stream: closing","id":"gxnmdttw"}
+{"time":"2025-01-15T23:33:34.4573837+01:00","level":"INFO","msg":"handler: closed","stream_id":"gxnmdttw"}
+{"time":"2025-01-15T23:33:34.4573837+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gxnmdttw"}
+{"time":"2025-01-15T23:33:34.4573837+01:00","level":"INFO","msg":"sender: closed","stream_id":"gxnmdttw"}
+{"time":"2025-01-15T23:33:34.4579101+01:00","level":"INFO","msg":"stream: closed","id":"gxnmdttw"}

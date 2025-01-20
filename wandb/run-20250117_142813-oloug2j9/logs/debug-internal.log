@@ -1,0 +1,17 @@
+{"time":"2025-01-17T14:28:13.16218+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_142813-oloug2j9\\logs\\debug-core.log"}
+{"time":"2025-01-17T14:28:13.774896+01:00","level":"INFO","msg":"created new stream","id":"oloug2j9"}
+{"time":"2025-01-17T14:28:13.774896+01:00","level":"INFO","msg":"stream: started","id":"oloug2j9"}
+{"time":"2025-01-17T14:28:13.774896+01:00","level":"INFO","msg":"handler: started","stream_id":"oloug2j9"}
+{"time":"2025-01-17T14:28:13.774896+01:00","level":"INFO","msg":"sender: started","stream_id":"oloug2j9"}
+{"time":"2025-01-17T14:28:13.774896+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"oloug2j9"}
+{"time":"2025-01-17T14:28:14.1075901+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T14:28:25.5983942+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T15:26:58.906077+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T15:26:58.9067027+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T15:26:59.9078948+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6252345,"progress":"1.6MB/1.7MB"},{"desc":"uploading model.zip","runtime_seconds":0.0635558,"progress":"112.0KB/143.7KB"},{"desc":"uploading runs\\oloug2j9\\runs\\oloug2j9_0\\events.out.tfevents.1737120495.Stijn.18440.2","runtime_seconds":0.0635558,"progress":"112.0KB/1.0MB"}],"total_operations":3}}
+{"time":"2025-01-17T15:27:00.7526652+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T15:27:01.9459682+01:00","level":"INFO","msg":"stream: closing","id":"oloug2j9"}
+{"time":"2025-01-17T15:27:01.9459682+01:00","level":"INFO","msg":"handler: closed","stream_id":"oloug2j9"}
+{"time":"2025-01-17T15:27:01.9459682+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"oloug2j9"}
+{"time":"2025-01-17T15:27:01.9459682+01:00","level":"INFO","msg":"sender: closed","stream_id":"oloug2j9"}
+{"time":"2025-01-17T15:27:01.9459682+01:00","level":"INFO","msg":"stream: closed","id":"oloug2j9"}

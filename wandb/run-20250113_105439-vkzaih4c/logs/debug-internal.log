@@ -1,0 +1,10 @@
+{"time":"2025-01-13T10:54:39.1984612+01:00","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2025-01-13T10:54:39.1984612+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250113_105439-vkzaih4c\\logs\\debug-core.log"}
+{"time":"2025-01-13T10:54:39.3098759+01:00","level":"INFO","msg":"created new stream","id":"vkzaih4c"}
+{"time":"2025-01-13T10:54:39.3104198+01:00","level":"INFO","msg":"stream: started","id":"vkzaih4c"}
+{"time":"2025-01-13T10:54:39.3104198+01:00","level":"INFO","msg":"handler: started","stream_id":"vkzaih4c"}
+{"time":"2025-01-13T10:54:39.3104198+01:00","level":"INFO","msg":"sender: started","stream_id":"vkzaih4c"}
+{"time":"2025-01-13T10:54:39.3104198+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"vkzaih4c"}
+{"time":"2025-01-13T10:54:39.8331259+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-13T10:54:50.7471917+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-13T10:54:50.750348+01:00","level":"ERROR","msg":"tensorboard: error creating symlink","target":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\runs\\vkzaih4c\\runs\\vkzaih4c_0\\events.out.tfevents.1736762080.Stijn.3420.0","symlink":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250113_105439-vkzaih4c\\files\\runs\\vkzaih4c\\runs\\vkzaih4c_0\\events.out.tfevents.1736762080.Stijn.3420.0","error":"symlink C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\runs\\vkzaih4c\\runs\\vkzaih4c_0\\events.out.tfevents.1736762080.Stijn.3420.0 C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250113_105439-vkzaih4c\\files\\runs\\vkzaih4c\\runs\\vkzaih4c_0\\events.out.tfevents.1736762080.Stijn.3420.0: A required privilege is not held by the client."}

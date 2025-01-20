@@ -1,0 +1,17 @@
+{"time":"2025-01-16T00:08:52.9067662+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_000852-3v2kkv93\\logs\\debug-core.log"}
+{"time":"2025-01-16T00:08:53.0196918+01:00","level":"INFO","msg":"created new stream","id":"3v2kkv93"}
+{"time":"2025-01-16T00:08:53.0202628+01:00","level":"INFO","msg":"stream: started","id":"3v2kkv93"}
+{"time":"2025-01-16T00:08:53.0202628+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"3v2kkv93"}
+{"time":"2025-01-16T00:08:53.0202628+01:00","level":"INFO","msg":"sender: started","stream_id":"3v2kkv93"}
+{"time":"2025-01-16T00:08:53.0202628+01:00","level":"INFO","msg":"handler: started","stream_id":"3v2kkv93"}
+{"time":"2025-01-16T00:08:53.2560818+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T00:09:03.7198321+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T00:52:48.0626939+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T00:52:48.0632439+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T00:52:49.0671735+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6005339,"progress":"1.5MB/1.7MB"},{"desc":"uploading config.yaml","runtime_seconds":0.4052346,"progress":"3.8KB/3.8KB"},{"desc":"uploading model.zip","runtime_seconds":0.2025016,"progress":"143.7KB/143.7KB"},{"desc":"uploading runs\\3v2kkv93\\runs\\3v2kkv93_0\\events.out.tfevents.1736982533.Stijn.17040.2","runtime_seconds":0.2025016,"progress":"240.0KB/1.0MB"}],"total_operations":4}}
+{"time":"2025-01-16T00:52:50.2141188+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T00:52:51.432537+01:00","level":"INFO","msg":"stream: closing","id":"3v2kkv93"}
+{"time":"2025-01-16T00:52:51.432537+01:00","level":"INFO","msg":"handler: closed","stream_id":"3v2kkv93"}
+{"time":"2025-01-16T00:52:51.432537+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3v2kkv93"}
+{"time":"2025-01-16T00:52:51.432537+01:00","level":"INFO","msg":"sender: closed","stream_id":"3v2kkv93"}
+{"time":"2025-01-16T00:52:51.432537+01:00","level":"INFO","msg":"stream: closed","id":"3v2kkv93"}

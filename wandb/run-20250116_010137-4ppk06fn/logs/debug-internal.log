@@ -1,0 +1,17 @@
+{"time":"2025-01-16T01:01:37.9047734+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_010137-4ppk06fn\\logs\\debug-core.log"}
+{"time":"2025-01-16T01:01:38.116613+01:00","level":"INFO","msg":"created new stream","id":"4ppk06fn"}
+{"time":"2025-01-16T01:01:38.116613+01:00","level":"INFO","msg":"stream: started","id":"4ppk06fn"}
+{"time":"2025-01-16T01:01:38.117158+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"4ppk06fn"}
+{"time":"2025-01-16T01:01:38.117158+01:00","level":"INFO","msg":"sender: started","stream_id":"4ppk06fn"}
+{"time":"2025-01-16T01:01:38.117158+01:00","level":"INFO","msg":"handler: started","stream_id":"4ppk06fn"}
+{"time":"2025-01-16T01:01:38.39209+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T01:01:48.7572631+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T01:49:27.9597338+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T01:49:27.9602407+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T01:49:28.9681442+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4952002,"progress":"1.6MB/1.7MB"},{"desc":"uploading config.yaml","runtime_seconds":0.0995081,"progress":"3.8KB/3.8KB"}],"total_operations":2}}
+{"time":"2025-01-16T01:49:30.2327048+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T01:49:31.4552576+01:00","level":"INFO","msg":"stream: closing","id":"4ppk06fn"}
+{"time":"2025-01-16T01:49:31.4552576+01:00","level":"INFO","msg":"handler: closed","stream_id":"4ppk06fn"}
+{"time":"2025-01-16T01:49:31.4552576+01:00","level":"INFO","msg":"sender: closed","stream_id":"4ppk06fn"}
+{"time":"2025-01-16T01:49:31.4552576+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4ppk06fn"}
+{"time":"2025-01-16T01:49:31.4557804+01:00","level":"INFO","msg":"stream: closed","id":"4ppk06fn"}

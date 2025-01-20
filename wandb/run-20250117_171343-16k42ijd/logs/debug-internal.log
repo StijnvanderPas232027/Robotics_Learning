@@ -1,0 +1,17 @@
+{"time":"2025-01-17T17:13:43.7277526+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_171343-16k42ijd\\logs\\debug-core.log"}
+{"time":"2025-01-17T17:13:44.338667+01:00","level":"INFO","msg":"created new stream","id":"16k42ijd"}
+{"time":"2025-01-17T17:13:44.338667+01:00","level":"INFO","msg":"stream: started","id":"16k42ijd"}
+{"time":"2025-01-17T17:13:44.338667+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"16k42ijd"}
+{"time":"2025-01-17T17:13:44.3392522+01:00","level":"INFO","msg":"handler: started","stream_id":"16k42ijd"}
+{"time":"2025-01-17T17:13:44.3392522+01:00","level":"INFO","msg":"sender: started","stream_id":"16k42ijd"}
+{"time":"2025-01-17T17:13:44.6221564+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T17:13:55.1265161+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T18:02:09.6400162+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T18:02:09.6412027+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T18:02:10.6409243+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6623302,"progress":"1.6MB/1.7MB"},{"desc":"uploading runs\\16k42ijd\\runs\\16k42ijd_0\\events.out.tfevents.1737130425.Stijn.22884.5","runtime_seconds":0.2945037,"progress":"336.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.2945037,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-17T18:02:11.3517601+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T18:02:12.560563+01:00","level":"INFO","msg":"stream: closing","id":"16k42ijd"}
+{"time":"2025-01-17T18:02:12.560563+01:00","level":"INFO","msg":"handler: closed","stream_id":"16k42ijd"}
+{"time":"2025-01-17T18:02:12.560563+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"16k42ijd"}
+{"time":"2025-01-17T18:02:12.560563+01:00","level":"INFO","msg":"sender: closed","stream_id":"16k42ijd"}
+{"time":"2025-01-17T18:02:12.560563+01:00","level":"INFO","msg":"stream: closed","id":"16k42ijd"}

@@ -1,0 +1,17 @@
+{"time":"2025-01-15T22:34:18.4546111+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_223418-lgz7p0ul\\logs\\debug-core.log"}
+{"time":"2025-01-15T22:34:18.5666831+01:00","level":"INFO","msg":"created new stream","id":"lgz7p0ul"}
+{"time":"2025-01-15T22:34:18.5666831+01:00","level":"INFO","msg":"handler: started","stream_id":"lgz7p0ul"}
+{"time":"2025-01-15T22:34:18.5666831+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"lgz7p0ul"}
+{"time":"2025-01-15T22:34:18.5666831+01:00","level":"INFO","msg":"stream: started","id":"lgz7p0ul"}
+{"time":"2025-01-15T22:34:18.5666831+01:00","level":"INFO","msg":"sender: started","stream_id":"lgz7p0ul"}
+{"time":"2025-01-15T22:34:18.8541132+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T22:34:30.076798+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T23:33:26.1179787+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T23:33:26.1185242+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T23:33:27.1286706+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6592134,"progress":"1.3MB/1.7MB"},{"desc":"uploading runs\\lgz7p0ul\\runs\\lgz7p0ul_0\\events.out.tfevents.1736976860.Stijn.16904.0","runtime_seconds":0.4071816,"progress":"208.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.4071816,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-15T23:33:27.8186438+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T23:33:29.0607436+01:00","level":"INFO","msg":"stream: closing","id":"lgz7p0ul"}
+{"time":"2025-01-15T23:33:29.0607436+01:00","level":"INFO","msg":"handler: closed","stream_id":"lgz7p0ul"}
+{"time":"2025-01-15T23:33:29.0607436+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lgz7p0ul"}
+{"time":"2025-01-15T23:33:29.0607436+01:00","level":"INFO","msg":"sender: closed","stream_id":"lgz7p0ul"}
+{"time":"2025-01-15T23:33:29.0607436+01:00","level":"INFO","msg":"stream: closed","id":"lgz7p0ul"}

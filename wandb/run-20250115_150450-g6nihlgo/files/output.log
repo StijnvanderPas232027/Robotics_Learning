@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "train4.py", line 23, in <module>
+    env = OT2Env()
+  File "C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\ot2_env_wrapper_updated_3.py", line 14, in __init__
+    self.sim = Simulation(num_agents=1, render=self.render)
+  File "C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\sim_class.py", line 30, in __init__
+    self.plate_image_path = f'textures/_plates/{os.listdir("textures/_plates")[random_texture_index]}'
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "train4.py", line 23, in <module>
+    env = OT2Env()
+  File "C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\ot2_env_wrapper_updated_3.py", line 14, in __init__
+    self.sim = Simulation(num_agents=1, render=self.render)
+  File "C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\sim_class.py", line 30, in __init__
+    self.plate_image_path = f'textures/_plates/{os.listdir("textures/_plates")[random_texture_index]}'
+IndexError: list index out of range

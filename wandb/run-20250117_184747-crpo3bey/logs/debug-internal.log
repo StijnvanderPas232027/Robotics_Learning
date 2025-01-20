@@ -1,0 +1,17 @@
+{"time":"2025-01-17T18:47:47.5199449+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_184747-crpo3bey\\logs\\debug-core.log"}
+{"time":"2025-01-17T18:47:48.1311592+01:00","level":"INFO","msg":"created new stream","id":"crpo3bey"}
+{"time":"2025-01-17T18:47:48.1318087+01:00","level":"INFO","msg":"stream: started","id":"crpo3bey"}
+{"time":"2025-01-17T18:47:48.1318087+01:00","level":"INFO","msg":"handler: started","stream_id":"crpo3bey"}
+{"time":"2025-01-17T18:47:48.1318087+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"crpo3bey"}
+{"time":"2025-01-17T18:47:48.1318087+01:00","level":"INFO","msg":"sender: started","stream_id":"crpo3bey"}
+{"time":"2025-01-17T18:47:48.4423093+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T18:47:58.9551123+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T19:47:03.3500994+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T19:47:03.3511285+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T19:47:04.3536691+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6702725,"progress":"1.4MB/1.7MB"},{"desc":"uploading runs\\crpo3bey\\runs\\crpo3bey_0\\events.out.tfevents.1737136068.Stijn.19636.6","runtime_seconds":0.2846605,"progress":"256.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.2846605,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-17T19:47:05.0651648+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T19:47:06.2536916+01:00","level":"INFO","msg":"stream: closing","id":"crpo3bey"}
+{"time":"2025-01-17T19:47:06.2536916+01:00","level":"INFO","msg":"handler: closed","stream_id":"crpo3bey"}
+{"time":"2025-01-17T19:47:06.2536916+01:00","level":"INFO","msg":"sender: closed","stream_id":"crpo3bey"}
+{"time":"2025-01-17T19:47:06.2536916+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"crpo3bey"}
+{"time":"2025-01-17T19:47:06.2536916+01:00","level":"INFO","msg":"stream: closed","id":"crpo3bey"}

@@ -1,0 +1,17 @@
+{"time":"2025-01-16T13:28:55.9345562+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_132855-bmgw1gik\\logs\\debug-core.log"}
+{"time":"2025-01-16T13:28:56.54661+01:00","level":"INFO","msg":"created new stream","id":"bmgw1gik"}
+{"time":"2025-01-16T13:28:56.54661+01:00","level":"INFO","msg":"stream: started","id":"bmgw1gik"}
+{"time":"2025-01-16T13:28:56.54661+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"bmgw1gik"}
+{"time":"2025-01-16T13:28:56.54661+01:00","level":"INFO","msg":"sender: started","stream_id":"bmgw1gik"}
+{"time":"2025-01-16T13:28:56.54661+01:00","level":"INFO","msg":"handler: started","stream_id":"bmgw1gik"}
+{"time":"2025-01-16T13:28:56.9174933+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T13:29:07.2661483+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T14:11:38.0709949+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T14:11:38.0709949+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T14:11:39.0729609+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6428578,"progress":"1.6MB/1.7MB"},{"desc":"uploading model.zip","runtime_seconds":0.1645716,"progress":"143.7KB/143.7KB"},{"desc":"uploading runs\\bmgw1gik\\runs\\bmgw1gik_0\\events.out.tfevents.1737030537.Stijn.10192.2","runtime_seconds":0.1645716,"progress":"208.0KB/1.0MB"}],"total_operations":3}}
+{"time":"2025-01-16T14:11:39.9041448+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T14:11:41.1209477+01:00","level":"INFO","msg":"stream: closing","id":"bmgw1gik"}
+{"time":"2025-01-16T14:11:41.1209477+01:00","level":"INFO","msg":"handler: closed","stream_id":"bmgw1gik"}
+{"time":"2025-01-16T14:11:41.1209477+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bmgw1gik"}
+{"time":"2025-01-16T14:11:41.1209477+01:00","level":"INFO","msg":"sender: closed","stream_id":"bmgw1gik"}
+{"time":"2025-01-16T14:11:41.1209477+01:00","level":"INFO","msg":"stream: closed","id":"bmgw1gik"}

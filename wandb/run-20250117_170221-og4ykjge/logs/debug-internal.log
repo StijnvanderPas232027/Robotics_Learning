@@ -1,0 +1,18 @@
+{"time":"2025-01-17T17:02:21.9449538+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_170221-og4ykjge\\logs\\debug-core.log"}
+{"time":"2025-01-17T17:02:22.1569269+01:00","level":"INFO","msg":"created new stream","id":"og4ykjge"}
+{"time":"2025-01-17T17:02:22.1569269+01:00","level":"INFO","msg":"stream: started","id":"og4ykjge"}
+{"time":"2025-01-17T17:02:22.1569269+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"og4ykjge"}
+{"time":"2025-01-17T17:02:22.1569269+01:00","level":"INFO","msg":"handler: started","stream_id":"og4ykjge"}
+{"time":"2025-01-17T17:02:22.1569269+01:00","level":"INFO","msg":"sender: started","stream_id":"og4ykjge"}
+{"time":"2025-01-17T17:02:22.4352996+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T17:02:32.9372693+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T17:30:09.2623301+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-01-17T17:50:46.7860628+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T17:50:46.7866538+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T17:50:47.7896664+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6388992,"progress":"1.5MB/1.7MB"},{"desc":"uploading model.zip","runtime_seconds":0.3048304,"progress":"143.7KB/143.7KB"},{"desc":"uploading runs\\og4ykjge\\runs\\og4ykjge_0\\events.out.tfevents.1737129742.Stijn.6964.4","runtime_seconds":0.3048304,"progress":"416.0KB/1.0MB"}],"total_operations":3}}
+{"time":"2025-01-17T17:50:48.4571107+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T17:50:49.695087+01:00","level":"INFO","msg":"stream: closing","id":"og4ykjge"}
+{"time":"2025-01-17T17:50:49.695087+01:00","level":"INFO","msg":"handler: closed","stream_id":"og4ykjge"}
+{"time":"2025-01-17T17:50:49.695087+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"og4ykjge"}
+{"time":"2025-01-17T17:50:49.695087+01:00","level":"INFO","msg":"sender: closed","stream_id":"og4ykjge"}
+{"time":"2025-01-17T17:50:49.695087+01:00","level":"INFO","msg":"stream: closed","id":"og4ykjge"}

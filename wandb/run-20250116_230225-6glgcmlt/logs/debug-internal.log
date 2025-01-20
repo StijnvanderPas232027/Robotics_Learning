@@ -1,0 +1,10 @@
+{"time":"2025-01-16T23:02:25.8459173+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_230225-6glgcmlt\\logs\\debug-core.log"}
+{"time":"2025-01-16T23:02:25.956992+01:00","level":"INFO","msg":"created new stream","id":"6glgcmlt"}
+{"time":"2025-01-16T23:02:25.956992+01:00","level":"INFO","msg":"stream: started","id":"6glgcmlt"}
+{"time":"2025-01-16T23:02:25.956992+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"6glgcmlt"}
+{"time":"2025-01-16T23:02:25.956992+01:00","level":"INFO","msg":"sender: started","stream_id":"6glgcmlt"}
+{"time":"2025-01-16T23:02:25.956992+01:00","level":"INFO","msg":"handler: started","stream_id":"6glgcmlt"}
+{"time":"2025-01-16T23:02:26.2800001+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T23:02:36.8086274+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T23:16:12.5210048+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-16T23:17:12.8105059+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}

@@ -1,0 +1,12 @@
+{"time":"2025-01-17T20:14:13.3286534+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_201413-mz1sjcla\\logs\\debug-core.log"}
+{"time":"2025-01-17T20:14:13.5389034+01:00","level":"INFO","msg":"created new stream","id":"mz1sjcla"}
+{"time":"2025-01-17T20:14:13.5398493+01:00","level":"INFO","msg":"stream: started","id":"mz1sjcla"}
+{"time":"2025-01-17T20:14:13.5398493+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mz1sjcla"}
+{"time":"2025-01-17T20:14:13.5398493+01:00","level":"INFO","msg":"sender: started","stream_id":"mz1sjcla"}
+{"time":"2025-01-17T20:14:13.5398493+01:00","level":"INFO","msg":"handler: started","stream_id":"mz1sjcla"}
+{"time":"2025-01-17T20:14:13.7961723+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T20:14:24.2799465+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T20:58:04.8545164+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T20:58:04.855106+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T20:58:05.8552185+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.5158626,"progress":"1.4MB/1.7MB"},{"desc":"uploading runs\\mz1sjcla\\runs\\mz1sjcla_0\\events.out.tfevents.1737141254.Stijn.8304.8"},{"desc":"uploading model.zip"}],"total_operations":3}}
+{"time":"2025-01-17T20:58:06.8154346+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

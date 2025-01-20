@@ -1,0 +1,33 @@
+2025-01-15 15:05:01,797 INFO    MainThread:7228 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-01-15 15:05:01,797 INFO    MainThread:7228 [wandb_setup.py:_flush():68] Configure stats pid to 7228
+2025-01-15 15:05:01,797 INFO    MainThread:7228 [wandb_setup.py:_flush():68] Loading settings from C:\Users\stijn\.config\wandb\settings
+2025-01-15 15:05:01,798 INFO    MainThread:7228 [wandb_setup.py:_flush():68] Loading settings from C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\wandb\settings
+2025-01-15 15:05:01,798 INFO    MainThread:7228 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-15 15:05:01,798 INFO    MainThread:7228 [wandb_init.py:_log_setup():523] Logging user logs to C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\wandb\run-20250115_150501-gzhchjib\logs\debug.log
+2025-01-15 15:05:01,798 INFO    MainThread:7228 [wandb_init.py:_log_setup():524] Logging internal logs to C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\wandb\run-20250115_150501-gzhchjib\logs\debug-internal.log
+2025-01-15 15:05:01,798 INFO    MainThread:7228 [wandb_init.py:init():641] calling init triggers
+2025-01-15 15:05:01,798 INFO    MainThread:7228 [wandb_init.py:init():647] wandb.init called with sweep_config: {}
+config: {}
+2025-01-15 15:05:01,798 INFO    MainThread:7228 [wandb_init.py:init():674] starting backend
+2025-01-15 15:05:02,016 INFO    MainThread:7228 [wandb_init.py:init():678] sending inform_init request
+2025-01-15 15:05:02,028 INFO    MainThread:7228 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-01-15 15:05:02,029 INFO    MainThread:7228 [wandb_init.py:init():693] backend started and connected
+2025-01-15 15:05:02,029 INFO    MainThread:7228 [wandb_init.py:init():786] updated telemetry
+2025-01-15 15:05:02,056 INFO    MainThread:7228 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-01-15 15:05:02,393 INFO    MainThread:7228 [wandb_init.py:init():868] starting run threads in backend
+2025-01-15 15:05:02,658 INFO    MainThread:7228 [wandb_run.py:_console_start():2415] atexit reg
+2025-01-15 15:05:02,658 INFO    MainThread:7228 [wandb_run.py:_redirect():2265] redirect: wrap_raw
+2025-01-15 15:05:02,658 INFO    MainThread:7228 [wandb_run.py:_redirect():2330] Wrapping output streams.
+2025-01-15 15:05:02,658 INFO    MainThread:7228 [wandb_run.py:_redirect():2355] Redirects installed.
+2025-01-15 15:05:02,661 INFO    MainThread:7228 [wandb_init.py:init():910] run started, returning control to user process
+2025-01-15 15:05:03,554 INFO    MainThread:7228 [wandb_run.py:_config_callback():1283] config_cb None None {'seed': 42}
+2025-01-15 15:05:03,566 INFO    MainThread:7228 [wandb_run.py:_tensorboard_callback():1476] tensorboard callback: runs/gzhchjib\runs/gzhchjib_0, True
+2025-01-15 15:05:03,574 INFO    MainThread:7228 [wandb_run.py:_config_callback():1283] config_cb None None {'algo': 'PPO', 'policy_class': "<class 'stable_baselines3.common.policies.ActorCriticPolicy'>", 'device': 'cpu', 'verbose': 1, 'policy_kwargs': '{}', 'num_timesteps': 0, '_total_timesteps': 3000000, '_num_timesteps_at_start': 0, 'action_noise': 'None', 'start_time': 1736949903556060000, 'learning_rate': 0.0003, 'tensorboard_log': 'runs/gzhchjib', '_last_obs': '[[ 0.073       0.0895      0.1195     -0.02216489  0.20027858  0.24393897]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x0000024CE78FB280>', '_vec_normalize_env': 'None', 'observation_space': 'Box([-0.187  -0.1705  0.1195 -0.2531 -0.2195 -0.2895], [0.2531 0.2195 0.2895 0.2531 0.2195 0.2895], (6,), float32)', 'action_space': 'Box(-1.0, 1.0, (3,), float32)', 'n_envs': 1, 'n_steps': 2048, 'gamma': 0.99, 'gae_lambda': 0.95, 'ent_coef': 0.0, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'rollout_buffer_class': "<class 'stable_baselines3.common.buffers.RolloutBuffer'>", 'rollout_buffer_kwargs': '{}', 'batch_size': 128, 'n_epochs': 1, 'clip_range': '<function get_schedule_fn.<locals>.<lambda> at 0x0000024CB1B3DB80>', 'clip_range_vf': 'None', 'normalize_advantage': 'True', 'target_kl': 'None', 'lr_schedule': '<function get_schedule_fn.<locals>.<lambda> at 0x0000024CE7941F70>', 'rollout_buffer': '<stable_baselines3.common.buffers.RolloutBuffer object at 0x0000024CE7912A60>', 'policy': 'ActorCriticPolicy(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (pi_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (vf_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (mlp_extractor): MlpExtractor(\n    (policy_net): Sequential(\n      (0): Linear(in_features=6, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n    (value_net): Sequential(\n      (0): Linear(in_features=6, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n  )\n  (action_net): Linear(in_features=64, out_features=3, bias=True)\n  (value_net): Linear(in_features=64, out_features=1, bias=True)\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x0000024CE7912DF0>'}
+2025-01-15 15:09:33,968 INFO    MainThread:7228 [sb3.py:save_model():147] Saving model checkpoint to models/gzhchjib\model.zip
+2025-01-15 15:13:58,865 INFO    MainThread:7228 [sb3.py:save_model():147] Saving model checkpoint to models/gzhchjib\model.zip
+2025-01-15 15:18:16,696 INFO    MainThread:7228 [sb3.py:save_model():147] Saving model checkpoint to models/gzhchjib\model.zip
+2025-01-15 15:22:38,784 INFO    MainThread:7228 [sb3.py:save_model():147] Saving model checkpoint to models/gzhchjib\model.zip
+2025-01-15 15:27:11,679 INFO    MainThread:7228 [sb3.py:save_model():147] Saving model checkpoint to models/gzhchjib\model.zip
+2025-01-15 15:31:54,964 INFO    MainThread:7228 [sb3.py:save_model():147] Saving model checkpoint to models/gzhchjib\model.zip
+2025-01-15 15:31:55,283 INFO    MainThread:7228 [sb3.py:save_model():147] Saving model checkpoint to models/gzhchjib\model.zip
+2025-01-15 15:31:55,296 WARNING MsgRouterThr:7228 [router.py:message_loop():75] message_loop has been closed

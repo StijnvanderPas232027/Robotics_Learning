@@ -1,0 +1,17 @@
+{"time":"2025-01-17T13:07:00.6571201+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_130700-97ivvejg\\logs\\debug-core.log"}
+{"time":"2025-01-17T13:07:00.7707225+01:00","level":"INFO","msg":"created new stream","id":"97ivvejg"}
+{"time":"2025-01-17T13:07:00.7707225+01:00","level":"INFO","msg":"handler: started","stream_id":"97ivvejg"}
+{"time":"2025-01-17T13:07:00.7707225+01:00","level":"INFO","msg":"stream: started","id":"97ivvejg"}
+{"time":"2025-01-17T13:07:00.7707225+01:00","level":"INFO","msg":"sender: started","stream_id":"97ivvejg"}
+{"time":"2025-01-17T13:07:00.7707225+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"97ivvejg"}
+{"time":"2025-01-17T13:07:01.0460395+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T13:07:12.6363846+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T13:54:44.6838307+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T13:54:44.6843385+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T13:54:45.6933455+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.5556546,"progress":"1.7MB/1.7MB"}],"total_operations":1}}
+{"time":"2025-01-17T13:54:46.6097454+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T13:54:47.9505319+01:00","level":"INFO","msg":"stream: closing","id":"97ivvejg"}
+{"time":"2025-01-17T13:54:47.9505319+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"97ivvejg"}
+{"time":"2025-01-17T13:54:47.9505319+01:00","level":"INFO","msg":"handler: closed","stream_id":"97ivvejg"}
+{"time":"2025-01-17T13:54:47.9505319+01:00","level":"INFO","msg":"sender: closed","stream_id":"97ivvejg"}
+{"time":"2025-01-17T13:54:47.9505319+01:00","level":"INFO","msg":"stream: closed","id":"97ivvejg"}

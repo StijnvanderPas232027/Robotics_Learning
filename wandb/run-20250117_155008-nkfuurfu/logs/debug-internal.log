@@ -1,0 +1,17 @@
+{"time":"2025-01-17T15:50:08.5644311+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_155008-nkfuurfu\\logs\\debug-core.log"}
+{"time":"2025-01-17T15:50:09.1774238+01:00","level":"INFO","msg":"created new stream","id":"nkfuurfu"}
+{"time":"2025-01-17T15:50:09.1774238+01:00","level":"INFO","msg":"stream: started","id":"nkfuurfu"}
+{"time":"2025-01-17T15:50:09.1774238+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"nkfuurfu"}
+{"time":"2025-01-17T15:50:09.1774238+01:00","level":"INFO","msg":"sender: started","stream_id":"nkfuurfu"}
+{"time":"2025-01-17T15:50:09.1774238+01:00","level":"INFO","msg":"handler: started","stream_id":"nkfuurfu"}
+{"time":"2025-01-17T15:50:09.5157676+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T15:50:19.9700222+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T16:48:22.5306022+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T16:48:22.5311512+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T16:48:23.5311466+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.5980218,"progress":"1.7MB/1.7MB"}],"total_operations":1}}
+{"time":"2025-01-17T16:48:24.4485222+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T16:48:25.6988686+01:00","level":"INFO","msg":"stream: closing","id":"nkfuurfu"}
+{"time":"2025-01-17T16:48:25.6988686+01:00","level":"INFO","msg":"handler: closed","stream_id":"nkfuurfu"}
+{"time":"2025-01-17T16:48:25.6988686+01:00","level":"INFO","msg":"sender: closed","stream_id":"nkfuurfu"}
+{"time":"2025-01-17T16:48:25.6988686+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nkfuurfu"}
+{"time":"2025-01-17T16:48:25.6988686+01:00","level":"INFO","msg":"stream: closed","id":"nkfuurfu"}

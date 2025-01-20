@@ -1,0 +1,17 @@
+{"time":"2025-01-17T13:04:42.6342834+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_130442-28unvkuj\\logs\\debug-core.log"}
+{"time":"2025-01-17T13:04:43.1283635+01:00","level":"INFO","msg":"created new stream","id":"28unvkuj"}
+{"time":"2025-01-17T13:04:43.1283635+01:00","level":"INFO","msg":"stream: started","id":"28unvkuj"}
+{"time":"2025-01-17T13:04:43.1283635+01:00","level":"INFO","msg":"handler: started","stream_id":"28unvkuj"}
+{"time":"2025-01-17T13:04:43.1283635+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"28unvkuj"}
+{"time":"2025-01-17T13:04:43.1283635+01:00","level":"INFO","msg":"sender: started","stream_id":"28unvkuj"}
+{"time":"2025-01-17T13:04:43.4983414+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T13:04:54.9696101+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T14:16:13.1670609+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T14:16:13.1675697+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T14:16:14.1753322+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.668942,"progress":"1.7MB/1.7MB"},{"desc":"uploading runs\\28unvkuj\\runs\\28unvkuj_0\\events.out.tfevents.1737115484.Stijn.20524.0","runtime_seconds":0.2123979,"progress":"432.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.2123979,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-17T14:16:14.8772944+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T14:16:16.0855685+01:00","level":"INFO","msg":"stream: closing","id":"28unvkuj"}
+{"time":"2025-01-17T14:16:16.0855685+01:00","level":"INFO","msg":"handler: closed","stream_id":"28unvkuj"}
+{"time":"2025-01-17T14:16:16.0855685+01:00","level":"INFO","msg":"sender: closed","stream_id":"28unvkuj"}
+{"time":"2025-01-17T14:16:16.0855685+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"28unvkuj"}
+{"time":"2025-01-17T14:16:16.0855685+01:00","level":"INFO","msg":"stream: closed","id":"28unvkuj"}

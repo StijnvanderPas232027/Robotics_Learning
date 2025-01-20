@@ -1,0 +1,16 @@
+{"time":"2025-01-15T12:52:27.2178786+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_125226-alyto4ul\\logs\\debug-core.log"}
+{"time":"2025-01-15T12:52:27.3261484+01:00","level":"INFO","msg":"created new stream","id":"alyto4ul"}
+{"time":"2025-01-15T12:52:27.3261484+01:00","level":"INFO","msg":"stream: started","id":"alyto4ul"}
+{"time":"2025-01-15T12:52:27.3261484+01:00","level":"INFO","msg":"handler: started","stream_id":"alyto4ul"}
+{"time":"2025-01-15T12:52:27.3261484+01:00","level":"INFO","msg":"sender: started","stream_id":"alyto4ul"}
+{"time":"2025-01-15T12:52:27.3261484+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"alyto4ul"}
+{"time":"2025-01-15T12:52:27.6195083+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T12:52:38.6099274+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T13:10:51.2935299+01:00","level":"INFO","msg":"stream: closing","id":"alyto4ul"}
+{"time":"2025-01-15T13:10:51.2935299+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T13:10:51.2940503+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T13:10:52.8804405+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T13:10:53.0866728+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"alyto4ul"}
+{"time":"2025-01-15T13:10:53.0866728+01:00","level":"INFO","msg":"handler: closed","stream_id":"alyto4ul"}
+{"time":"2025-01-15T13:10:53.0866728+01:00","level":"INFO","msg":"sender: closed","stream_id":"alyto4ul"}
+{"time":"2025-01-15T13:10:53.0866728+01:00","level":"INFO","msg":"stream: closed","id":"alyto4ul"}

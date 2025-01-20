@@ -1,0 +1,17 @@
+{"time":"2025-01-15T22:01:02.1332559+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250115_220101-g9du2ily\\logs\\debug-core.log"}
+{"time":"2025-01-15T22:01:02.2471126+01:00","level":"INFO","msg":"created new stream","id":"g9du2ily"}
+{"time":"2025-01-15T22:01:02.2471126+01:00","level":"INFO","msg":"stream: started","id":"g9du2ily"}
+{"time":"2025-01-15T22:01:02.2486441+01:00","level":"INFO","msg":"handler: started","stream_id":"g9du2ily"}
+{"time":"2025-01-15T22:01:02.2486441+01:00","level":"INFO","msg":"sender: started","stream_id":"g9du2ily"}
+{"time":"2025-01-15T22:01:02.2486441+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"g9du2ily"}
+{"time":"2025-01-15T22:01:02.5598803+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-15T22:01:13.4483994+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-15T22:02:26.8434315+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-15T22:02:26.8434315+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-15T22:02:27.8541372+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading runs\\g9du2ily\\runs\\g9du2ily_0\\events.out.tfevents.1736974863.Stijn.9592.0","runtime_seconds":0.0504001,"progress":"34.8KB/34.8KB"},{"desc":"uploading model.zip","runtime_seconds":0.0504001,"progress":"143.7KB/143.7KB"}],"total_operations":2}}
+{"time":"2025-01-15T22:02:28.3672217+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-15T22:02:29.5974206+01:00","level":"INFO","msg":"stream: closing","id":"g9du2ily"}
+{"time":"2025-01-15T22:02:29.5974206+01:00","level":"INFO","msg":"handler: closed","stream_id":"g9du2ily"}
+{"time":"2025-01-15T22:02:29.5974206+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g9du2ily"}
+{"time":"2025-01-15T22:02:29.5974206+01:00","level":"INFO","msg":"sender: closed","stream_id":"g9du2ily"}
+{"time":"2025-01-15T22:02:29.5974206+01:00","level":"INFO","msg":"stream: closed","id":"g9du2ily"}

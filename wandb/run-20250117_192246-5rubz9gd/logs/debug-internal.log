@@ -1,0 +1,17 @@
+{"time":"2025-01-17T19:22:46.7919984+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_192246-5rubz9gd\\logs\\debug-core.log"}
+{"time":"2025-01-17T19:22:47.2042917+01:00","level":"INFO","msg":"created new stream","id":"5rubz9gd"}
+{"time":"2025-01-17T19:22:47.2048544+01:00","level":"INFO","msg":"stream: started","id":"5rubz9gd"}
+{"time":"2025-01-17T19:22:47.2048544+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"5rubz9gd"}
+{"time":"2025-01-17T19:22:47.2048544+01:00","level":"INFO","msg":"sender: started","stream_id":"5rubz9gd"}
+{"time":"2025-01-17T19:22:47.2048544+01:00","level":"INFO","msg":"handler: started","stream_id":"5rubz9gd"}
+{"time":"2025-01-17T19:22:47.4824228+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T19:22:59.0466093+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T20:14:10.2655043+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T20:14:10.2666094+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T20:14:11.2813073+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.5931775,"progress":"1.7MB/1.7MB"},{"desc":"uploading runs\\5rubz9gd\\runs\\5rubz9gd_0\\events.out.tfevents.1737138169.Stijn.8304.7","runtime_seconds":0.0170316,"progress":"368.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.0170316,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-17T20:14:12.0803536+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T20:14:13.3215769+01:00","level":"INFO","msg":"stream: closing","id":"5rubz9gd"}
+{"time":"2025-01-17T20:14:13.3215769+01:00","level":"INFO","msg":"handler: closed","stream_id":"5rubz9gd"}
+{"time":"2025-01-17T20:14:13.3215769+01:00","level":"INFO","msg":"sender: closed","stream_id":"5rubz9gd"}
+{"time":"2025-01-17T20:14:13.3215769+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5rubz9gd"}
+{"time":"2025-01-17T20:14:13.3215769+01:00","level":"INFO","msg":"stream: closed","id":"5rubz9gd"}

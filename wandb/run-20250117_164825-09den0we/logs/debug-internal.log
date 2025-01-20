@@ -1,0 +1,17 @@
+{"time":"2025-01-17T16:48:25.7065714+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_164825-09den0we\\logs\\debug-core.log"}
+{"time":"2025-01-17T16:48:26.3193547+01:00","level":"INFO","msg":"created new stream","id":"09den0we"}
+{"time":"2025-01-17T16:48:26.3193547+01:00","level":"INFO","msg":"stream: started","id":"09den0we"}
+{"time":"2025-01-17T16:48:26.3193547+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"09den0we"}
+{"time":"2025-01-17T16:48:26.3193547+01:00","level":"INFO","msg":"sender: started","stream_id":"09den0we"}
+{"time":"2025-01-17T16:48:26.3193547+01:00","level":"INFO","msg":"handler: started","stream_id":"09den0we"}
+{"time":"2025-01-17T16:48:26.5916024+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T16:48:38.1075975+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T17:47:26.9806662+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T17:47:26.9812311+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T17:47:27.9886822+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6702039,"progress":"1.7MB/1.7MB"},{"desc":"uploading runs\\09den0we\\runs\\09den0we_0\\events.out.tfevents.1737128908.Stijn.21984.4","runtime_seconds":0.2874184,"progress":"496.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.2874184,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-17T17:47:28.7158695+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T17:47:29.9697936+01:00","level":"INFO","msg":"stream: closing","id":"09den0we"}
+{"time":"2025-01-17T17:47:29.9697936+01:00","level":"INFO","msg":"handler: closed","stream_id":"09den0we"}
+{"time":"2025-01-17T17:47:29.9697936+01:00","level":"INFO","msg":"sender: closed","stream_id":"09den0we"}
+{"time":"2025-01-17T17:47:29.9697936+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"09den0we"}
+{"time":"2025-01-17T17:47:29.9697936+01:00","level":"INFO","msg":"stream: closed","id":"09den0we"}

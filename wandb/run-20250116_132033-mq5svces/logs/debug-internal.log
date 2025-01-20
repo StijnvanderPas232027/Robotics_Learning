@@ -1,0 +1,17 @@
+{"time":"2025-01-16T13:20:33.8037078+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_132033-mq5svces\\logs\\debug-core.log"}
+{"time":"2025-01-16T13:20:34.5121239+01:00","level":"INFO","msg":"created new stream","id":"mq5svces"}
+{"time":"2025-01-16T13:20:34.5121239+01:00","level":"INFO","msg":"stream: started","id":"mq5svces"}
+{"time":"2025-01-16T13:20:34.5121239+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"mq5svces"}
+{"time":"2025-01-16T13:20:34.5121239+01:00","level":"INFO","msg":"sender: started","stream_id":"mq5svces"}
+{"time":"2025-01-16T13:20:34.5121239+01:00","level":"INFO","msg":"handler: started","stream_id":"mq5svces"}
+{"time":"2025-01-16T13:20:34.7996509+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T13:20:45.2224727+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T14:04:20.6893481+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T14:04:20.6898723+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T14:04:21.7009293+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6531908,"progress":"1.6MB/1.7MB"},{"desc":"uploading runs\\mq5svces\\runs\\mq5svces_0\\events.out.tfevents.1737030035.Stijn.7584.2","runtime_seconds":0.2529663,"progress":"320.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.2529663,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-16T14:04:22.3556923+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T14:04:23.5807303+01:00","level":"INFO","msg":"stream: closing","id":"mq5svces"}
+{"time":"2025-01-16T14:04:23.5807303+01:00","level":"INFO","msg":"handler: closed","stream_id":"mq5svces"}
+{"time":"2025-01-16T14:04:23.5807303+01:00","level":"INFO","msg":"sender: closed","stream_id":"mq5svces"}
+{"time":"2025-01-16T14:04:23.5807303+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mq5svces"}
+{"time":"2025-01-16T14:04:23.5807303+01:00","level":"INFO","msg":"stream: closed","id":"mq5svces"}

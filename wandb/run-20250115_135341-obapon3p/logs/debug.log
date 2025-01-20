@@ -1,0 +1,33 @@
+2025-01-15 13:53:41,842 INFO    MainThread:23032 [wandb_setup.py:_flush():68] Current SDK version is 0.19.2
+2025-01-15 13:53:41,842 INFO    MainThread:23032 [wandb_setup.py:_flush():68] Configure stats pid to 23032
+2025-01-15 13:53:41,842 INFO    MainThread:23032 [wandb_setup.py:_flush():68] Loading settings from C:\Users\stijn\.config\wandb\settings
+2025-01-15 13:53:41,842 INFO    MainThread:23032 [wandb_setup.py:_flush():68] Loading settings from C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\wandb\settings
+2025-01-15 13:53:41,843 INFO    MainThread:23032 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-15 13:53:41,843 INFO    MainThread:23032 [wandb_init.py:_log_setup():523] Logging user logs to C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\wandb\run-20250115_135341-obapon3p\logs\debug.log
+2025-01-15 13:53:41,852 INFO    MainThread:23032 [wandb_init.py:_log_setup():524] Logging internal logs to C:\Users\stijn\OneDrive\Documenten\GitHub\Robotics_Learning\wandb\run-20250115_135341-obapon3p\logs\debug-internal.log
+2025-01-15 13:53:41,852 INFO    MainThread:23032 [wandb_init.py:init():641] calling init triggers
+2025-01-15 13:53:41,853 INFO    MainThread:23032 [wandb_init.py:init():647] wandb.init called with sweep_config: {}
+config: {}
+2025-01-15 13:53:41,853 INFO    MainThread:23032 [wandb_init.py:init():674] starting backend
+2025-01-15 13:53:42,071 INFO    MainThread:23032 [wandb_init.py:init():678] sending inform_init request
+2025-01-15 13:53:42,085 INFO    MainThread:23032 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-01-15 13:53:42,086 INFO    MainThread:23032 [wandb_init.py:init():693] backend started and connected
+2025-01-15 13:53:42,087 INFO    MainThread:23032 [wandb_init.py:init():786] updated telemetry
+2025-01-15 13:53:42,127 INFO    MainThread:23032 [wandb_init.py:init():818] communicating run to backend with 90.0 second timeout
+2025-01-15 13:53:42,456 INFO    MainThread:23032 [wandb_init.py:init():868] starting run threads in backend
+2025-01-15 13:53:42,835 INFO    MainThread:23032 [wandb_run.py:_console_start():2415] atexit reg
+2025-01-15 13:53:42,835 INFO    MainThread:23032 [wandb_run.py:_redirect():2265] redirect: wrap_raw
+2025-01-15 13:53:42,836 INFO    MainThread:23032 [wandb_run.py:_redirect():2330] Wrapping output streams.
+2025-01-15 13:53:42,836 INFO    MainThread:23032 [wandb_run.py:_redirect():2355] Redirects installed.
+2025-01-15 13:53:42,839 INFO    MainThread:23032 [wandb_init.py:init():910] run started, returning control to user process
+2025-01-15 13:53:43,972 INFO    MainThread:23032 [wandb_run.py:_config_callback():1283] config_cb None None {'seed': 6}
+2025-01-15 13:53:43,985 INFO    MainThread:23032 [wandb_run.py:_tensorboard_callback():1476] tensorboard callback: runs/obapon3p\runs/obapon3p_0, True
+2025-01-15 13:53:43,992 INFO    MainThread:23032 [wandb_run.py:_config_callback():1283] config_cb None None {'algo': 'PPO', 'policy_class': "<class 'stable_baselines3.common.policies.ActorCriticPolicy'>", 'device': 'cpu', 'verbose': 1, 'policy_kwargs': '{}', 'num_timesteps': 0, '_total_timesteps': 3000000, '_num_timesteps_at_start': 0, 'action_noise': 'None', 'start_time': 1736945623974963300, 'learning_rate': 0.0003, 'tensorboard_log': 'runs/obapon3p', '_last_obs': '[[ 0.073       0.0895      0.1195      0.20594776 -0.04102788  0.25910896]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x000001D895FBA280>', '_vec_normalize_env': 'None', 'observation_space': 'Box([-0.187  -0.1705  0.1195 -0.2531 -0.2195 -0.2895], [0.2531 0.2195 0.2895 0.2531 0.2195 0.2895], (6,), float32)', 'action_space': 'Box(-1.0, 1.0, (3,), float32)', 'n_envs': 1, 'n_steps': 2048, 'gamma': 0.99, 'gae_lambda': 0.95, 'ent_coef': 0.0, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'rollout_buffer_class': "<class 'stable_baselines3.common.buffers.RolloutBuffer'>", 'rollout_buffer_kwargs': '{}', 'batch_size': 128, 'n_epochs': 1, 'clip_range': '<function get_schedule_fn.<locals>.<lambda> at 0x000001D89FE5EA60>', 'clip_range_vf': 'None', 'normalize_advantage': 'True', 'target_kl': 'None', 'lr_schedule': '<function get_schedule_fn.<locals>.<lambda> at 0x000001D895FF8EE0>', 'rollout_buffer': '<stable_baselines3.common.buffers.RolloutBuffer object at 0x000001D895FD2B50>', 'policy': 'ActorCriticPolicy(\n  (features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (pi_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (vf_features_extractor): FlattenExtractor(\n    (flatten): Flatten(start_dim=1, end_dim=-1)\n  )\n  (mlp_extractor): MlpExtractor(\n    (policy_net): Sequential(\n      (0): Linear(in_features=6, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n    (value_net): Sequential(\n      (0): Linear(in_features=6, out_features=64, bias=True)\n      (1): Tanh()\n      (2): Linear(in_features=64, out_features=64, bias=True)\n      (3): Tanh()\n    )\n  )\n  (action_net): Linear(in_features=64, out_features=3, bias=True)\n  (value_net): Linear(in_features=64, out_features=1, bias=True)\n)', '_logger': '<stable_baselines3.common.logger.Logger object at 0x000001D895FD2EB0>'}
+2025-01-15 13:58:44,709 INFO    MainThread:23032 [sb3.py:save_model():147] Saving model checkpoint to models/obapon3p\model.zip
+2025-01-15 14:03:20,707 INFO    MainThread:23032 [sb3.py:save_model():147] Saving model checkpoint to models/obapon3p\model.zip
+2025-01-15 14:08:13,228 INFO    MainThread:23032 [sb3.py:save_model():147] Saving model checkpoint to models/obapon3p\model.zip
+2025-01-15 14:13:00,871 INFO    MainThread:23032 [sb3.py:save_model():147] Saving model checkpoint to models/obapon3p\model.zip
+2025-01-15 14:17:52,794 INFO    MainThread:23032 [sb3.py:save_model():147] Saving model checkpoint to models/obapon3p\model.zip
+2025-01-15 14:22:44,136 INFO    MainThread:23032 [sb3.py:save_model():147] Saving model checkpoint to models/obapon3p\model.zip
+2025-01-15 14:22:44,445 INFO    MainThread:23032 [sb3.py:save_model():147] Saving model checkpoint to models/obapon3p\model.zip
+2025-01-15 14:22:44,472 WARNING MsgRouterThr:23032 [router.py:message_loop():75] message_loop has been closed

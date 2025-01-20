@@ -96,7 +96,7 @@ class OT2Env(gym.Env):
         # Return step information
         info = {}
         return full_observation, reward, terminated, truncated, info
-
+    
     def render(self, mode='human'):
         # Optional: implement rendering logic if needed
         pass

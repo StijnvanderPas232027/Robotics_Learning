@@ -1,0 +1,17 @@
+{"time":"2025-01-16T01:34:51.7574533+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_013451-wmom01i0\\logs\\debug-core.log"}
+{"time":"2025-01-16T01:34:51.8672803+01:00","level":"INFO","msg":"created new stream","id":"wmom01i0"}
+{"time":"2025-01-16T01:34:51.8672803+01:00","level":"INFO","msg":"stream: started","id":"wmom01i0"}
+{"time":"2025-01-16T01:34:51.8672803+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"wmom01i0"}
+{"time":"2025-01-16T01:34:51.8672803+01:00","level":"INFO","msg":"handler: started","stream_id":"wmom01i0"}
+{"time":"2025-01-16T01:34:51.8672803+01:00","level":"INFO","msg":"sender: started","stream_id":"wmom01i0"}
+{"time":"2025-01-16T01:34:52.1650541+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T01:35:02.5396093+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T02:45:41.2308577+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T02:45:41.2313696+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T02:45:42.2452404+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4367229,"progress":"1.2MB/1.7MB"},{"desc":"uploading config.yaml","runtime_seconds":0.2732188,"progress":"3.8KB/3.8KB"},{"desc":"uploading runs\\wmom01i0\\runs\\wmom01i0_0\\events.out.tfevents.1736987692.Stijn.15796.3","runtime_seconds":0.1834071,"progress":"80.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.1834071,"progress":"112.0KB/143.7KB"}],"total_operations":4}}
+{"time":"2025-01-16T02:45:43.4300591+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T02:45:44.8860012+01:00","level":"INFO","msg":"stream: closing","id":"wmom01i0"}
+{"time":"2025-01-16T02:45:44.8865457+01:00","level":"INFO","msg":"handler: closed","stream_id":"wmom01i0"}
+{"time":"2025-01-16T02:45:44.8865457+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wmom01i0"}
+{"time":"2025-01-16T02:45:44.8865457+01:00","level":"INFO","msg":"sender: closed","stream_id":"wmom01i0"}
+{"time":"2025-01-16T02:45:44.8865457+01:00","level":"INFO","msg":"stream: closed","id":"wmom01i0"}

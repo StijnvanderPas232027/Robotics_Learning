@@ -1,0 +1,17 @@
+{"time":"2025-01-17T14:56:03.2818323+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_145603-3guazz0r\\logs\\debug-core.log"}
+{"time":"2025-01-17T14:56:03.8952035+01:00","level":"INFO","msg":"created new stream","id":"3guazz0r"}
+{"time":"2025-01-17T14:56:03.8952035+01:00","level":"INFO","msg":"stream: started","id":"3guazz0r"}
+{"time":"2025-01-17T14:56:03.8952035+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"3guazz0r"}
+{"time":"2025-01-17T14:56:03.8952035+01:00","level":"INFO","msg":"sender: started","stream_id":"3guazz0r"}
+{"time":"2025-01-17T14:56:03.8952035+01:00","level":"INFO","msg":"handler: started","stream_id":"3guazz0r"}
+{"time":"2025-01-17T14:56:04.1777243+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T14:56:14.6742245+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T16:09:23.9916484+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T16:09:23.9921622+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T16:09:24.9943016+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4087626,"progress":"1.2MB/1.7MB"},{"desc":"uploading model.zip","runtime_seconds":0.1168857,"progress":"64.0KB/143.7KB"},{"desc":"uploading runs\\3guazz0r\\runs\\3guazz0r_0\\events.out.tfevents.1737122164.Stijn.6964.2","runtime_seconds":0.1168857,"progress":"96.0KB/1.0MB"}],"total_operations":3}}
+{"time":"2025-01-17T16:09:25.8162285+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T16:09:27.0580505+01:00","level":"INFO","msg":"stream: closing","id":"3guazz0r"}
+{"time":"2025-01-17T16:09:27.0580505+01:00","level":"INFO","msg":"handler: closed","stream_id":"3guazz0r"}
+{"time":"2025-01-17T16:09:27.0580505+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3guazz0r"}
+{"time":"2025-01-17T16:09:27.0580505+01:00","level":"INFO","msg":"sender: closed","stream_id":"3guazz0r"}
+{"time":"2025-01-17T16:09:27.0580505+01:00","level":"INFO","msg":"stream: closed","id":"3guazz0r"}

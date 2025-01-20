@@ -1,0 +1,17 @@
+{"time":"2025-01-17T17:15:41.0030315+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250117_171540-q4ydqesp\\logs\\debug-core.log"}
+{"time":"2025-01-17T17:15:41.1130489+01:00","level":"INFO","msg":"created new stream","id":"q4ydqesp"}
+{"time":"2025-01-17T17:15:41.1130489+01:00","level":"INFO","msg":"stream: started","id":"q4ydqesp"}
+{"time":"2025-01-17T17:15:41.1130489+01:00","level":"INFO","msg":"handler: started","stream_id":"q4ydqesp"}
+{"time":"2025-01-17T17:15:41.1135768+01:00","level":"INFO","msg":"sender: started","stream_id":"q4ydqesp"}
+{"time":"2025-01-17T17:15:41.1130489+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"q4ydqesp"}
+{"time":"2025-01-17T17:15:41.3748666+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-17T17:15:51.8638446+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-17T18:04:43.9568084+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-17T18:04:43.9578754+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-17T18:04:44.9577403+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6575101,"progress":"1.5MB/1.7MB"},{"desc":"uploading runs\\q4ydqesp\\runs\\q4ydqesp_0\\events.out.tfevents.1737130541.Stijn.20524.4","runtime_seconds":0.2729935,"progress":"368.0KB/1.0MB"},{"desc":"uploading model.zip","runtime_seconds":0.2729935,"progress":"143.7KB/143.7KB"}],"total_operations":3}}
+{"time":"2025-01-17T18:04:45.851667+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-17T18:04:47.0745107+01:00","level":"INFO","msg":"stream: closing","id":"q4ydqesp"}
+{"time":"2025-01-17T18:04:47.0750388+01:00","level":"INFO","msg":"handler: closed","stream_id":"q4ydqesp"}
+{"time":"2025-01-17T18:04:47.0750388+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"q4ydqesp"}
+{"time":"2025-01-17T18:04:47.0750388+01:00","level":"INFO","msg":"sender: closed","stream_id":"q4ydqesp"}
+{"time":"2025-01-17T18:04:47.0750388+01:00","level":"INFO","msg":"stream: closed","id":"q4ydqesp"}

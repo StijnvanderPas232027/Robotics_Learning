@@ -1,0 +1,18 @@
+{"time":"2025-01-16T19:26:44.5851835+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250116_192644-dizrw18d\\logs\\debug-core.log"}
+{"time":"2025-01-16T19:26:44.6977227+01:00","level":"INFO","msg":"created new stream","id":"dizrw18d"}
+{"time":"2025-01-16T19:26:44.6977227+01:00","level":"INFO","msg":"stream: started","id":"dizrw18d"}
+{"time":"2025-01-16T19:26:44.6977227+01:00","level":"INFO","msg":"handler: started","stream_id":"dizrw18d"}
+{"time":"2025-01-16T19:26:44.6977227+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"dizrw18d"}
+{"time":"2025-01-16T19:26:44.6977227+01:00","level":"INFO","msg":"sender: started","stream_id":"dizrw18d"}
+{"time":"2025-01-16T19:26:45.2482743+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-16T19:26:56.3806778+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-01-16T20:03:02.2359616+01:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-16T20:03:57.579581+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-16T20:03:57.5803214+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-16T20:03:58.5934093+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6478637,"progress":"1.7MB/1.7MB"},{"desc":"uploading model.zip","runtime_seconds":0.4861572,"progress":"143.7KB/143.7KB"},{"desc":"uploading runs\\dizrw18d\\runs\\dizrw18d_0\\events.out.tfevents.1737052006.Stijn.6220.0","runtime_seconds":0.4861572,"progress":"1.0MB/1.0MB"}],"total_operations":3}}
+{"time":"2025-01-16T20:03:58.8921615+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-16T20:04:00.1468912+01:00","level":"INFO","msg":"stream: closing","id":"dizrw18d"}
+{"time":"2025-01-16T20:04:00.1468912+01:00","level":"INFO","msg":"handler: closed","stream_id":"dizrw18d"}
+{"time":"2025-01-16T20:04:00.1468912+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dizrw18d"}
+{"time":"2025-01-16T20:04:00.1468912+01:00","level":"INFO","msg":"sender: closed","stream_id":"dizrw18d"}
+{"time":"2025-01-16T20:04:00.1468912+01:00","level":"INFO","msg":"stream: closed","id":"dizrw18d"}

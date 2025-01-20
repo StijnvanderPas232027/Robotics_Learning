@@ -1,0 +1,9 @@
+{"time":"2025-01-13T09:00:50.3563555+01:00","level":"INFO","msg":"using version","core version":"0.19.0"}
+{"time":"2025-01-13T09:00:50.3563555+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\stijn\\OneDrive\\Documenten\\GitHub\\Robotics_Learning\\wandb\\run-20250113_090050-2zgbueqd\\logs\\debug-core.log"}
+{"time":"2025-01-13T09:00:52.3351102+01:00","level":"INFO","msg":"created new stream","id":"2zgbueqd"}
+{"time":"2025-01-13T09:00:52.3351102+01:00","level":"INFO","msg":"stream: started","id":"2zgbueqd"}
+{"time":"2025-01-13T09:00:52.3351102+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"2zgbueqd"}
+{"time":"2025-01-13T09:00:52.3356226+01:00","level":"INFO","msg":"sender: started","stream_id":"2zgbueqd"}
+{"time":"2025-01-13T09:00:52.3356226+01:00","level":"INFO","msg":"handler: started","stream_id":"2zgbueqd"}
+{"time":"2025-01-13T09:00:52.6219747+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-13T09:01:03.6288037+01:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}

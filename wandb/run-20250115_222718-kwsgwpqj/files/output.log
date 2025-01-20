@@ -1,0 +1,110 @@
+Successfully loaded plate texture: textures/_plates/038_43-13-ROOT1-2023-08-08_control_pH7_-Fe+B_col0_04-Fish Eye Corrected.png
+Attempt 1/5 failed to load textures: Texture file not found: textures/_mask_predicted
+Successfully loaded plate texture: textures/_plates/031_43-6-ROOT1-2023-08-08_control_pH7_-Fe+B_f6h1_02-Fish Eye Corrected.png
+Attempt 2/5 failed to load textures: Texture file not found: textures/_mask_predicted_sections
+Successfully loaded plate texture: textures/_plates/038_43-14-ROOT1-2023-08-08_pvdCherry_OD001_f6h1_04-Fish Eye Corrected.png
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+[34m[1mwandb[0m: [33mWARNING[0m When using several event log directories, please call `wandb.tensorboard.patch(root_logdir="...")` before `wandb.init`
+Logging to runs/kwsgwpqj\runs/kwsgwpqj_0
+[2K---------------------------------━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1,981/10,000 [0m [ [33m0:00:01[0m < [36m0:00:06[0m , [31m1,523 it/s[0m ]s[0m ]
+| rollout/           |          |
+|    ep_len_mean     | 1e+03    |
+|    ep_rew_mean     | -238     |
+| time/              |          |
+|    fps             | 1515     |
+|    iterations      | 1        |
+|    time_elapsed    | 1        |
+|    total_timesteps | 2048     |
+---------------------------------
+[2K-----------------------------------------━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3,824/10,000 [0m [ [33m0:00:03[0m < [36m0:00:06[0m , [31m1,051 it/s[0m ]s[0m ]
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -229        |
+| time/                   |             |
+|    fps                  | 1099        |
+|    iterations           | 2           |
+|    time_elapsed         | 3           |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.005978948 |
+|    clip_fraction        | 0.0435      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.21       |
+|    explained_variance   | 0.00452     |
+|    learning_rate        | 0.00231     |
+|    loss                 | 0.253       |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.00339    |
+|    std                  | 0.978       |
+|    value_loss           | 1.87        |
+-----------------------------------------
+[2K-----------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6,026/10,000 [0m [ [33m0:00:06[0m < [36m0:00:05[0m , [31m992 it/s[0m ]s[0m ]
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -216        |
+| time/                   |             |
+|    fps                  | 1012        |
+|    iterations           | 3           |
+|    time_elapsed         | 6           |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.006478285 |
+|    clip_fraction        | 0.0719      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.2        |
+|    explained_variance   | 0.622       |
+|    learning_rate        | 0.00231     |
+|    loss                 | 0.077       |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.00568    |
+|    std                  | 0.983       |
+|    value_loss           | 0.67        |
+-----------------------------------------
+[2K-----------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━[0m [32m8,084/10,000 [0m [ [33m0:00:08[0m < [36m0:00:02[0m , [31m962 it/s[0m ]
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -243        |
+| time/                   |             |
+|    fps                  | 976         |
+|    iterations           | 4           |
+|    time_elapsed         | 8           |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.005204102 |
+|    clip_fraction        | 0.0485      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.21       |
+|    explained_variance   | 0.921       |
+|    learning_rate        | 0.00231     |
+|    loss                 | 0.0248      |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -0.00327    |
+|    std                  | 0.986       |
+|    value_loss           | 0.257       |
+-----------------------------------------
+[2K-----------------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10,135/10,000 [0m [ [33m0:00:10[0m < [36m0:00:00[0m , [31m944 it/s[0m ] , [31m936 it/s[0m ]m932 it/s[0m ]
+| rollout/                |             |
+|    ep_len_mean          | 1e+03       |
+|    ep_rew_mean          | -233        |
+| time/                   |             |
+|    fps                  | 955         |
+|    iterations           | 5           |
+|    time_elapsed         | 10          |
+|    total_timesteps      | 10240       |
+| train/                  |             |
+|    approx_kl            | 0.007726214 |
+|    clip_fraction        | 0.0625      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.25       |
+|    explained_variance   | 0.352       |
+|    learning_rate        | 0.00231     |
+|    loss                 | 0.0406      |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.00305    |
+|    std                  | 0.999       |
+|    value_loss           | 0.968       |
+-----------------------------------------
+[2K[35m 100%[0m [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m10,240/10,000 [0m [ [33m0:00:10[0m < [36m0:00:00[0m , [31m865 it/s[0m ]
+[?25hModel saved at iteration 9: models\iteration_9/90000
