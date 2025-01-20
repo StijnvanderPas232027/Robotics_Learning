@@ -44,7 +44,7 @@ while iteration < total_iterations:
         "iteration": iteration
     })
 
-    from ot2_env_wrapper_updated_2 import OT2Env
+    from ot2_env_wrapper_updated_3 import OT2Env
     env = OT2Env()
 
     # Initialize the PPO model
@@ -73,7 +73,7 @@ while iteration < total_iterations:
 
     # Train the model
     try:
-        time_steps = 3000000  # Total training timesteps per iteration
+        time_steps = 2500000  # Total training timesteps per iteration
         model.learn(
             total_timesteps=time_steps,
             callback=wandb_callback,

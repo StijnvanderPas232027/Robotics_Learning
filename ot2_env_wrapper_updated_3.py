@@ -27,7 +27,6 @@ class OT2Env(gym.Env):
 
         # Keep track of the step amount
         self.steps = 0
-        self.previous_distance = None
 
     def reset(self, seed=None):
         # Set a seed if it was not set yet
@@ -52,72 +51,49 @@ class OT2Env(gym.Env):
 
         # Reset the number of steps
         self.steps = 0
-        self.previous_distance = None
 
         info = {}
 
         return observation, info
 
     def step(self, action):
-        # Set the actions
+        # set the actions
         action = np.append(np.array(action, dtype=np.float32), 0)
-        
         # Call the step function
         observation = self.sim.run([action])
         pipette_position = self.sim.get_pipette_position(self.sim.robotIds[0])
-        
         # Process observation
         observation = np.array(pipette_position, dtype=np.float32)
         
-        # Calculate distance to the goal
+        # Calculate the agent's reward
         distance = np.linalg.norm(np.array(pipette_position) - np.array(self.goal_position))
-        
-        # Maximum possible distance in the workspace
-        max_distance = np.linalg.norm([
-            self.x_max - self.x_min,
-            self.y_max - self.y_min,
-            self.z_max - self.z_min
-        ])
-        
-        # Reward function
-        reward = 0
-        
-        # Proportional distance reward (closer is better), normalized by max distance
-        normalized_distance = distance / max_distance
-        reward += 10.0 * (1.0 - normalized_distance)  # Higher reward as normalized distance decreases
-        
-        # Penalty for taking a step
-        reward -= 0.05  # Small penalty per step
-        
-        # Efficiency reward for significant progress
-        if self.previous_distance is not None:
-            progress = self.previous_distance - distance
-            if progress > 0:  # Only reward progress
-                reward += progress * 10  # Scale based on progress magnitude
-        
-        # Save current distance as previous for next step
-        self.previous_distance = distance
-        
-        # Bonus for reaching the goal
+        reward = -distance
+
+        # Reward for getting closer to the goal
         if distance <= 0.001:  # Within 1 mm
-            reward += 50.0  # Large reward for completing the task
+            reward += 35.0
+        elif distance <= 0.002:  # Within 2 mm
+            reward += 3.0
+        elif distance <= 0.004:  # Within 5 mm
+            reward += 1.0
+
+        # Check if the agent reaches within the threshold of the goal position
+        if distance <= 0.0008:  # Goal reached within 1 mm
             terminated = True
         else:
             terminated = False
-        
-        # Truncate if max steps exceeded
+
+        # Check if episode should be truncated
         if self.steps >= self.max_steps:
             truncated = True
         else:
             truncated = False
-        
-        # Update observation with current and goal positions
         observation = np.concatenate((pipette_position, self.goal_position), axis=0).astype(np.float32)
         info = {}
-        
-        # Increment step count
+
+        # Update the amount of steps
         self.steps += 1
-        
+
         return observation, reward, terminated, truncated, info
 
     def get_plate_image(self):

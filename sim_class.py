@@ -13,88 +13,71 @@ class Simulation:
         self.render = render
         self.rgb_array = rgb_array
 
-        if render:
-            mode = p.GUI  # for graphical version
-        else:
-            mode = p.DIRECT  # for non-graphical version
-
-        # Set up the simulation
+        # Connect to PyBullet in GUI or DIRECT mode
+        mode = p.GUI if render else p.DIRECT
         self.physicsClient = p.connect(mode)
+
         # Hide the default GUI components
         p.configureDebugVisualizer(p.COV_ENABLE_GUI, 0)
         p.setAdditionalSearchPath(pybullet_data.getDataPath())
         p.setGravity(0, 0, -10)
 
-        # Maximum number of times to retry
-        self.max_retries = 20  
+        self.max_retries = 20  # Maximum number of attempts
 
-        # --- 1) Gather file lists and do initial checks ---
+        # Define directories
         texture_dir = "textures"
-        plate_dir   = "textures/_plates"
-        
-        texture_list = os.listdir(texture_dir)
-        plate_list   = os.listdir(plate_dir)
+        plate_dir = "textures/_plates"
 
+        # Filter out hidden/system files (like .DS_Store) and sort them
+        texture_list = [f for f in os.listdir(texture_dir) if not f.startswith('.')]
+        plate_list   = [f for f in os.listdir(plate_dir)   if not f.startswith('.')]
+
+        texture_list.sort()
+        plate_list.sort()
+
+        # If one of the directories has no files at all, fail immediately
         if not texture_list:
-            raise FileNotFoundError(f"No textures found in '{texture_dir}'.")
+            raise FileNotFoundError(f"No textures found in '{texture_dir}' directory.")
         if not plate_list:
-            raise FileNotFoundError(f"No plate textures found in '{plate_dir}'.")
+            raise FileNotFoundError(f"No plate textures found in '{plate_dir}' directory.")
 
-        # --- 2) Pick one random texture from textures[:-1] ---
-        random_texture = random.choice(texture_list[:-1])
-        # Get the index of that texture in texture_list
-        random_texture_index = texture_list.index(random_texture)
-
-        # --- 3) Use the same index to pick the plate texture from plate_list ---
-        # Make sure the index is valid for plate_list as well
-        if random_texture_index >= len(plate_list):
-            raise IndexError(
-                "Index mismatch: 'textures' and '_plates' directories are not aligned in file count."
-            )
-
-        plate_filename = plate_list[random_texture_index]
-        # Construct full paths
-        self.plate_image_path = os.path.join(plate_dir, plate_filename)
-        self.main_texture_path = os.path.join(texture_dir, random_texture)
-
-        print(f"Selected random main texture: {self.main_texture_path}")
-        print(f"Selected aligned plate texture: {self.plate_image_path}")
-
-        # --- 4) Retry logic using the chosen files ---
+        # Retry loop
         attempts = 0
-
-        while attempts < self.max_retries:
+        success = False
+        while attempts < self.max_retries and not success:
             try:
-                # Ensure files actually exist (in case they were deleted or renamed)
+                # 1) Pick a random index safely within the texture_list
+                random_index = random.randint(0, len(texture_list) - 1)
+
+                # 2) Attempt to get the same index from plate_list
+                #    This can fail if plate_list is shorter or otherwise mismatched
+                self.main_texture_path = os.path.join(texture_dir, texture_list[random_index])
+                self.plate_image_path  = os.path.join(plate_dir, plate_list[random_index])
+
+                # 3) Check if both files exist (rare but possible they got removed)
                 if not os.path.isfile(self.main_texture_path):
-                    raise FileNotFoundError(f"Main texture not found: {self.main_texture_path}")
+                    raise FileNotFoundError(f"File not found: {self.main_texture_path}")
                 if not os.path.isfile(self.plate_image_path):
-                    raise FileNotFoundError(f"Plate texture not found: {self.plate_image_path}")
+                    raise FileNotFoundError(f"File not found: {self.plate_image_path}")
 
-                # Load the texture in PyBullet
+                # 4) Try loading the texture with PyBullet
                 self.textureId = p.loadTexture(self.main_texture_path)
-                print(f"Successfully loaded plate texture: {self.plate_image_path}")
-                break  # If we got here, everything succeeded
 
-            except (FileNotFoundError, IndexError) as e:
+                # If we get here, we’ve succeeded
+                success = True
+                print(f"Successfully loaded:\n"
+                      f"  Main texture:  {self.main_texture_path}\n"
+                      f"  Plate texture: {self.plate_image_path}")
+
+            except (IndexError, FileNotFoundError, p.error):
+                # If *any* of these errors occur, we simply go for another attempt
                 attempts += 1
-                print(f"Attempt {attempts}/{self.max_retries} failed: {e}")
-                time.sleep(1)  # Wait a bit before retrying
+                time.sleep(0.5)  # short pause, then try again (quietly)
 
-            except p.error as e:
-                # Catch any PyBullet-specific errors
-                attempts += 1
-                print(f"Attempt {attempts}/{self.max_retries} failed to load texture in PyBullet: {e}")
-                time.sleep(1)
-
-        # --- 5) If all attempts failed, raise an error ---
-        if attempts == self.max_retries:
+        if not success:
             raise RuntimeError(
-                f"Failed to load textures after {self.max_retries} attempts."
+                f"Failed to load matching texture and plate after {self.max_retries} attempts."
             )
-
-
-
 
 
         #print(f'textureId: {self.textureId}')
